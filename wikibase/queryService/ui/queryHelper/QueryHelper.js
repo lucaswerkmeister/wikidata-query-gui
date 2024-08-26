@@ -382,14 +382,14 @@ wikibase.queryService.ui.queryHelper.QueryHelper = ( function( $, wikibase, _ ) 
 		// SelectorBox
 		var self = this;
 		this._selectorBox.add( $button, null, function( id, name, propertyId ) {
-			var entity = 'http://www.wikidata.org/entity/' + id;// FIXME technical debt
+			var entity = 'https://database.factgrid.de/entity/' + id;// FIXME technical debt
 
 			var variable = self._query.getBoundVariables().shift();
 			if ( !variable ) {
 				variable = '?' + name.replace( /( |[^a-z0-9])/gi, '_' );
 			}
 
-			var prop = 'http://www.wikidata.org/prop/direct/' + ( propertyId || 'P31' );// FIXME technical debt
+			var prop = 'https://database.factgrid.de/prop/direct/' + ( propertyId || 'P2' );// FIXME technical debt
 			var triple = self._query.addTriple( variable, prop, entity, false );
 			if ( !self._query.hasVariable( variable ) ) {
 				self._query.addVariable( variable );
@@ -425,7 +425,7 @@ wikibase.queryService.ui.queryHelper.QueryHelper = ( function( $, wikibase, _ ) 
 		// SelectorBox
 		var self = this;
 		this._selectorBox.add( $button, null, function( id, name ) {
-			var prop = 'http://www.wikidata.org/prop/direct/' + id;// FIXME technical debt
+			var prop = 'https://database.factgrid.de/prop/direct/' + id;// FIXME technical debt
 
 			var subject = self._query.getBoundVariables().shift() || '?item';
 			var variable2 = '?' + name.replace( /( |[^a-z0-9])/gi, '_' );// FIXME technical debt

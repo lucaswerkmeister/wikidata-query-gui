@@ -29,7 +29,13 @@ wikibase.queryService.ui.queryHelper.SelectorBox = ( function( $, wikibase ) {
 						'SELECT ?id ?label ?description WHERE {\
 						hint:Query hint:optimizer "None".\
 							{\
-								SELECT DISTINCT ?id WHERE { ?id wdt:P1424 ?p. }\
+								SELECT ?id WHERE {\
+									?id rdfs:label ?label.\
+									MINUS { ?id a wikibase:Property. }\
+									?s ?p ?id.\
+								}\
+								GROUP BY ?id\
+								ORDER BY DESC(COUNT(*))\
 								LIMIT 100\
 							}\
 							?id rdfs:label ?label.\
@@ -99,7 +105,7 @@ wikibase.queryService.ui.queryHelper.SelectorBox = ( function( $, wikibase ) {
 					'SELECT ?id ?label ?description WHERE {\
 					hint:Query hint:optimizer "None".\
 						{\
-							SELECT DISTINCT ?id WHERE { ?i wdt:P31 ?id. }\
+							SELECT DISTINCT ?id WHERE { ?i wdt:P2 ?id. }\
 							LIMIT 100\
 						}\
 						?id rdfs:label ?label.\

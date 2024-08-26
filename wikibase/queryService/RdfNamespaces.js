@@ -8,24 +8,24 @@ wikibase.queryService.RdfNamespaces = {};
 	RdfNamespaces.NAMESPACE_SHORTCUTS = {
 		Wikidata: {
 			wikibase: 'http://wikiba.se/ontology#',
-			wd: 'http://www.wikidata.org/entity/',
-			wdt: 'http://www.wikidata.org/prop/direct/',
-			wdtn: 'http://www.wikidata.org/prop/direct-normalized/',
-			wds: 'http://www.wikidata.org/entity/statement/',
-			p: 'http://www.wikidata.org/prop/',
-			wdref: 'http://www.wikidata.org/reference/',
-			wdv: 'http://www.wikidata.org/value/',
-			ps: 'http://www.wikidata.org/prop/statement/',
-			psv: 'http://www.wikidata.org/prop/statement/value/',
-			psn: 'http://www.wikidata.org/prop/statement/value-normalized/',
-			pq: 'http://www.wikidata.org/prop/qualifier/',
-			pqv: 'http://www.wikidata.org/prop/qualifier/value/',
-			pqn: 'http://www.wikidata.org/prop/qualifier/value-normalized/',
-			pr: 'http://www.wikidata.org/prop/reference/',
-			prv: 'http://www.wikidata.org/prop/reference/value/',
-			prn: 'http://www.wikidata.org/prop/reference/value-normalized/',
-			wdno: 'http://www.wikidata.org/prop/novalue/',
-			wdata: 'http://www.wikidata.org/wiki/Special:EntityData/'
+			wd: 'https://database.factgrid.de/entity/',
+			wdt: 'https://database.factgrid.de/prop/direct/',
+			wdtn: 'https://database.factgrid.de/prop/direct-normalized/',
+			wds: 'https://database.factgrid.de/entity/statement/',
+			p: 'https://database.factgrid.de/prop/',
+			wdref: 'https://database.factgrid.de/reference/',
+			wdv: 'https://database.factgrid.de/value/',
+			ps: 'https://database.factgrid.de/prop/statement/',
+			psv: 'https://database.factgrid.de/prop/statement/value/',
+			psn: 'https://database.factgrid.de/prop/statement/value-normalized/',
+			pq: 'https://database.factgrid.de/prop/qualifier/',
+			pqv: 'https://database.factgrid.de/prop/qualifier/value/',
+			pqn: 'https://database.factgrid.de/prop/qualifier/value-normalized/',
+			pr: 'https://database.factgrid.de/prop/reference/',
+			prv: 'https://database.factgrid.de/prop/reference/value/',
+			prn: 'https://database.factgrid.de/prop/reference/value-normalized/',
+			wdno: 'https://database.factgrid.de/prop/novalue/',
+			wdata: 'https://database.factgrid.de/wiki/Special:EntityData/'
 		},
 		W3C: {
 			rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
@@ -51,21 +51,21 @@ wikibase.queryService.RdfNamespaces = {};
 	};
 
 	RdfNamespaces.ENTITY_TYPES = {
-		'http://www.wikidata.org/prop/direct/': 'property',
-		'http://www.wikidata.org/prop/direct-normalized/': 'property',
-		'http://www.wikidata.org/prop/': 'property',
-		'http://www.wikidata.org/prop/novalue/': 'property',
-		'http://www.wikidata.org/prop/statement/': 'property',
-		'http://www.wikidata.org/prop/statement/value/': 'property',
-		'http://www.wikidata.org/prop/statement/value-normalized/': 'property',
-		'http://www.wikidata.org/prop/qualifier/': 'property',
-		'http://www.wikidata.org/prop/qualifier/value/': 'property',
-		'http://www.wikidata.org/prop/qualifier/value-normalized/': 'property',
-		'http://www.wikidata.org/prop/reference/': 'property',
-		'http://www.wikidata.org/prop/reference/value/': 'property',
-		'http://www.wikidata.org/prop/reference/value-normalized/': 'property',
-		'http://www.wikidata.org/wiki/Special:EntityData/': 'item',
-		'http://www.wikidata.org/entity/': 'item'
+		'https://database.factgrid.de/prop/direct/': 'property',
+		'https://database.factgrid.de/prop/direct-normalized/': 'property',
+		'https://database.factgrid.de/prop/': 'property',
+		'https://database.factgrid.de/prop/novalue/': 'property',
+		'https://database.factgrid.de/prop/statement/': 'property',
+		'https://database.factgrid.de/prop/statement/value/': 'property',
+		'https://database.factgrid.de/prop/statement/value-normalized/': 'property',
+		'https://database.factgrid.de/prop/qualifier/': 'property',
+		'https://database.factgrid.de/prop/qualifier/value/': 'property',
+		'https://database.factgrid.de/prop/qualifier/value-normalized/': 'property',
+		'https://database.factgrid.de/prop/reference/': 'property',
+		'https://database.factgrid.de/prop/reference/value/': 'property',
+		'https://database.factgrid.de/prop/reference/value-normalized/': 'property',
+		'https://database.factgrid.de/wiki/Special:EntityData/': 'item',
+		'https://database.factgrid.de/entity/': 'item'
 	};
 
 	RdfNamespaces.ALL_PREFIXES = $.map( RdfNamespaces.NAMESPACE_SHORTCUTS, function ( n ) {
@@ -75,12 +75,12 @@ wikibase.queryService.RdfNamespaces = {};
 	}, {} );
 
 	RdfNamespaces.STANDARD_PREFIXES = {
-		wd: 'PREFIX wd: <http://www.wikidata.org/entity/>',
-		wdt: 'PREFIX wdt: <http://www.wikidata.org/prop/direct/>',
+		wd: 'PREFIX wd: <https://database.factgrid.de/entity/>',
+		wdt: 'PREFIX wdt: <https://database.factgrid.de/prop/direct/>',
 		wikibase: 'PREFIX wikibase: <http://wikiba.se/ontology#>',
-		p: 'PREFIX p: <http://www.wikidata.org/prop/>',
-		ps: 'PREFIX ps: <http://www.wikidata.org/prop/statement/>',
-		pq: 'PREFIX pq: <http://www.wikidata.org/prop/qualifier/>',
+		p: 'PREFIX p: <https://database.factgrid.de/prop/>',
+		ps: 'PREFIX ps: <https://database.factgrid.de/prop/statement/>',
+		pq: 'PREFIX pq: <https://database.factgrid.de/prop/qualifier/>',
 		rdfs: 'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>',
 		bd: 'PREFIX bd: <http://www.bigdata.com/rdf#>'
 	};
