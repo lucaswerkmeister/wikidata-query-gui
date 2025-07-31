@@ -116,7 +116,7 @@
 	"wdqs-dialog-key-shortcut-focus-limit": "Clique o botão \"Limite\" no Assistente de Consultas.",
 	"wdqs-dialog-key-shortcut-show-example": "Mostrar exemplos.",
 	"wdqs-dialog-key-shortcut-help-menu": "Ativar o menu de ajuda.",
-	"wdqs-dialog-key-shortcut-show-language": "Mostrar o menu de línguas.",
+	"wdqs-dialog-key-shortcut-show-language": "Mostrar o menu de linguagens.",
 	"wdqs-dialog-key-shortcut-close-button": "Fechar",
 	"wdqs-ve-filter": "Filtro",
 	"wdqs-ve-show": "Mostrar",
@@ -147,5 +147,6 @@
 	"wdqs-embed-button-edit-code": "Editar SPARQL",
 	"wdqs-embed-button-edit-code-title": "Editar esta consulta com o editor SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Mostrar hiperligações de entrada",
-	"wdqs-embed-explorer-button-outgoing": "Mostrar hiperligações de saída"
+	"wdqs-embed-explorer-button-outgoing": "Mostrar hiperligações de saída",
+	"wdqs-app-graph-split-banner-content": "A sua consulta inclui itens que descrevem artigos científicos? A divisão do gráfico afeta as suas consultas. Por favor, saiba mais sobre isso nesta <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">página de ajuda</a>."
 }

@@ -8,6 +8,7 @@
 			"Arian Ar",
 			"AzorAhai",
 			"Beginneruser",
+			"Darafsh",
 			"Darknessswamp8",
 			"Dejavu",
 			"Ebrahim",
@@ -81,6 +82,7 @@
 	"wdqs-app-result-csv": "پروندهٔ سی‌اس‌وی",
 	"wdqs-app-result-svg": "تصویر اس‌وی‌جی",
 	"wdqs-app-result-html": "جدول اچ‌تی‌ام‌ال",
+	"wdqs-app-result-geojson": "فایل GeoJSON",
 	"wdqs-app-shorturl-page-title": "نشانی کوتاه به این صفحه",
 	"wdqs-app-editor-placeholder": "(یک کوئری SPARQL وارد کنید یا یک نمونه کوئری را انتخاب کنید)",
 	"wdqs-app-editor-addprefixes": "افزودن پیشوندهای استاندارد",
@@ -153,5 +155,6 @@
 	"wdqs-embed-button-edit-code": "ویرایش SPARQL",
 	"wdqs-embed-button-edit-code-title": "ویرایش پرسمان به کمک ویرایشگر SPARQL",
 	"wdqs-embed-explorer-button-incoming": "نمایش پیوند به",
-	"wdqs-embed-explorer-button-outgoing": "نمایش پیوند‌ها"
+	"wdqs-embed-explorer-button-outgoing": "نمایش پیوند‌ها",
+	"wdqs-app-graph-split-banner-content": "آیا پرس‌وجوی شما شامل آیتم‌هایی است که مقالات علمی را توصیف می‌کنند؟ تقسیم‌بندی گراف بر پرس‌وجوهای شما تأثیر می‌گذارد. لطفاً برای اطلاعات بیشتر به <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">صفحهٔ راهنما</a> مراجعه کنید."
 }

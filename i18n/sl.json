@@ -69,6 +69,7 @@
 	"wdqs-app-result-csv": "Datoteka CSV",
 	"wdqs-app-result-svg": "Slika SVG",
 	"wdqs-app-result-html": "Tabela HTML",
+	"wdqs-app-result-geojson": "Datoteka GeoJSON",
 	"wdqs-app-shorturl-page-title": "Kratki URL do te strani",
 	"wdqs-app-editor-placeholder": "(Vnesite poizvedbo SPARQL ali izberite zgled poizvedbe)",
 	"wdqs-app-editor-addprefixes": "Dodaj standardne predpone",
@@ -141,5 +142,6 @@
 	"wdqs-embed-button-edit-code": "Uredi SPARQL",
 	"wdqs-embed-button-edit-code-title": "Uredi poizvedbo z urejevalnikom SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Prikaži vhodne povezave",
-	"wdqs-embed-explorer-button-outgoing": "Prikaži izhodne povezave"
+	"wdqs-embed-explorer-button-outgoing": "Prikaži izhodne povezave",
+	"wdqs-app-graph-split-banner-content": "Ali vaša poizvedba vključuje predmete, ki opisujejo znanstvene članke? Razdelitev grafa vpliva na vaše poizvedbe. Več o tem si preberite na tej <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">strani pomoči</a>."
 }

@@ -14,7 +14,8 @@
 			"NikosLikomitros",
 			"Nikosgranturismogt",
 			"Norhorn",
-			"Stam.nikos"
+			"Stam.nikos",
+			"Warudo"
 		]
 	},
 	"wdqs-app-button-examples": "Παραδείγματα",
@@ -22,7 +23,7 @@
 	"wdqs-app-button-more-tools": "περισσότερα εργαλεία",
 	"wdqs-app-button-help": "Βοήθεια",
 	"wdqs-app-button-run": "Εκτέλεση",
-	"wdqs-app-button-run-title": "Εκτέλεση ερωτήματος (<CTRL> + <ENTER>)",
+	"wdqs-app-button-run-title": "Εκτέλεση ερωτήματος (CTRL + ENTER)",
 	"wdqs-app-button-cancel-title": "Ακύρωση ερωτήματος (CTRL + ESC)",
 	"wdqs-app-button-clear": "Εκκαθάριση",
 	"wdqs-app-button-clear-title": "Εκκαθάριση ερωτήματος",
@@ -79,7 +80,7 @@
 	"wdqs-app-shorturl-page-title": "Σύντομο URL γι' αυτή τη σελίδα",
 	"wdqs-app-editor-placeholder": "(Εισαγάγετε ένα ερώτημα SPARQL ή να διαλέξτε ένα παράδειγμα ερωτήματος)",
 	"wdqs-app-editor-addprefixes": "Προσθήκη Standard Προθεμάτων",
-	"wdqs-app-resultbrowser-response-summary": "$1 {{PLURAL:$1|αποτέλεσμα|αποτελέσματα}} στο $2&nbsp;ms",
+	"wdqs-app-resultbrowser-response-summary": "$1 {{PLURAL:$1|αποτέλεσμα|αποτελέσματα}} σε $2&nbsp;ms",
 	"wdqs-app-resultbrowser-stabilize": "Σταθεροποίηση του δικτύου",
 	"wdqs-app-resultbrowser-hierarchical-lr": "Ιεραρχική διάταξη από αριστερά προς τα δεξιά",
 	"wdqs-app-resultbrowser-hierarchical-ud": "Ιεραρχική διάταξη πάνω προς τα κάτω",

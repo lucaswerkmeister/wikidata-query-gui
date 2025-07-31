@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"!Silent",
+			"ACheJu",
 			"Athena in Wonderland",
 			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
@@ -22,6 +23,7 @@
 	"wdqs-app-button-help": "Ajuda",
 	"wdqs-app-button-run": "Executar",
 	"wdqs-app-button-run-title": "Executar a consulta (CTRL + ENTER)",
+	"wdqs-app-button-cancel-title": "Cancelar consulta (CTRL + ESC)",
 	"wdqs-app-button-clear": "Limpar",
 	"wdqs-app-button-clear-title": "Limpar consulta",
 	"wdqs-app-button-restore-title": "Restaurar consulta anterior",
@@ -74,6 +76,7 @@
 	"wdqs-app-result-csv": "Arquivo CSV",
 	"wdqs-app-result-svg": "Imagem SVG",
 	"wdqs-app-result-html": "Tabela HTML",
+	"wdqs-app-result-geojson": "Arquivo GeoJSON",
 	"wdqs-app-shorturl-page-title": "URL curta para esta página",
 	"wdqs-app-editor-placeholder": "(escreva uma consulta SPARQL ou escolha uma consulta de exemplo)",
 	"wdqs-app-editor-addprefixes": "Adicione prefixos padrão",
@@ -105,6 +108,7 @@
 	"wdqs-dialog-examples-preview-result": "Vista prévia do resultado",
 	"wdqs-dialog-key-shortcut-title": "Teclas de atalho",
 	"wdqs-dialog-key-shortcut-run-query": "Executar consulta.",
+	"wdqs-dialog-key-shortcut-cancel-query": "Cancelar consulta.",
 	"wdqs-dialog-key-shortcut-esc": "Emprega o atual campo/área de texto de entrada.",
 	"wdqs-dialog-key-shortcut-show-shortcut-help": "Mostrar a ajuda sobre teclas de atalho para a página atual.",
 	"wdqs-dialog-key-shortcut-focus-textarea": "Foca na área de texto da consulta.",
@@ -129,6 +133,7 @@
 	"wdqs-ve-sb-suggestions": "Sugestões",
 	"wdqs-ve-sb-other": "Outro",
 	"wdqs-action-query": "Executando consulta",
+	"wdqs-action-stop-query": "A consulta foi cancelada",
 	"wdqs-action-render": "Renderização do resultado",
 	"wdqs-action-error-display": "Não é possível exibir o resultado",
 	"wdqs-action-timeout": "Atingido o tempo de limite da consulta",
@@ -144,5 +149,6 @@
 	"wdqs-embed-button-edit-code": "Editar SPARQL",
 	"wdqs-embed-button-edit-code-title": "Editar esta consulta com o editor SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Mostrar links de entrada",
-	"wdqs-embed-explorer-button-outgoing": "Mostrar links de saída"
+	"wdqs-embed-explorer-button-outgoing": "Mostrar links de saída",
+	"wdqs-app-graph-split-banner-content": "Sua consulta inclui itens que descrevem artigos científicos? A divisão do gráfico afeta suas consultas. Saiba mais sobre isso nesta <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">página de ajuda</a>."
 }
