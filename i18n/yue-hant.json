@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"JeffreyKim",
+			"Ktchankt",
 			"Winston Sung"
 		]
 	},
@@ -58,13 +59,13 @@
 	"wdqs-app-result-endpoint-title": "連結去返回結果嘅 SPARQL 端點",
 	"wdqs-app-result-formatter-title-datetime": "原始 ISO 時間戳記",
 	"wdqs-app-result-json": "JSON檔",
-	"wdqs-app-result-json-verbose": "JSON快勞（詳細）",
+	"wdqs-app-result-json-verbose": "JSON檔（詳細）",
 	"wdqs-app-result-tsv": "TSV檔",
-	"wdqs-app-result-tsv-verbose": "TSV快勞（詳細）",
+	"wdqs-app-result-tsv-verbose": "TSV檔（詳細）",
 	"wdqs-app-result-csv": "CSV檔",
 	"wdqs-app-result-svg": "SVG圖",
 	"wdqs-app-result-html": "HTML表",
-	"wdqs-app-result-geojson": "GeoJSON快勞",
+	"wdqs-app-result-geojson": "GeoJSON檔",
 	"wdqs-app-shorturl-page-title": "呢頁嘅短連結",
 	"wdqs-app-editor-placeholder": "（輸入SPARQL查詢或揀查詢示例）",
 	"wdqs-app-editor-addprefixes": "添加標準前綴",
@@ -132,7 +133,7 @@
 	"wdqs-action-preview": "結果預覽",
 	"wdqs-result-map-layers-all": "所有圖層",
 	"wdqs-result-map-progress": "載入地圖資料：$1%",
-	"wdqs-embed-button-edit-query": "以視覺方式編輯",
+	"wdqs-embed-button-edit-query": "以即見方式編輯",
 	"wdqs-embed-button-edit-query-title": "用查詢助手編輯呢個查詢",
 	"wdqs-embed-button-edit-code": "編輯 SPARQL",
 	"wdqs-embed-button-edit-code-title": "用 SPARQL 編輯器編輯呢個查詢",

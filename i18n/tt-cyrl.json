@@ -3,6 +3,7 @@
 		"authors": [
 			"Blackisnewyellow",
 			"Ерней",
+			"Ильгиз",
 			"Ильнар"
 		]
 	},
@@ -20,7 +21,7 @@
 	"wdqs-app-button-fullscreen-title": "Төзәткечнең тулы экран режимына күчәргә/кайтырга",
 	"wdqs-app-button-display": "Күрсәтү",
 	"wdqs-app-button-display-title": "Нәтиҗәне җәдвәл, сурәт, … шикелле күрсәтергә",
-	"wdqs-app-button-download": "Күчереп алу",
+	"wdqs-app-button-download": "Йөкләп ал",
 	"wdqs-app-button-download-title": "Нәтиҗәне күчереп алу",
 	"wdqs-app-button-link": "Сылтама",
 	"wdqs-app-button-link-title": "Сорауга сылтама алырга",
