@@ -79,6 +79,7 @@
 	"wdqs-app-result-csv": "CSV-файл",
 	"wdqs-app-result-svg": "Изображение SVG",
 	"wdqs-app-result-html": "HTML-таблица",
+	"wdqs-app-result-geojson": "GeoJSON-файл",
 	"wdqs-app-shorturl-page-title": "Короткий URL-адрес к этой странице",
 	"wdqs-app-editor-placeholder": "(Введите запрос на SPARQL или выберите один из примеров)",
 	"wdqs-app-editor-addprefixes": "Добавить стандартные префиксы",

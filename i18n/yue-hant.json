@@ -3,7 +3,8 @@
 		"authors": [
 			"JeffreyKim",
 			"Ktchankt",
-			"Winston Sung"
+			"Winston Sung",
+			"Yueman"
 		]
 	},
 	"wdqs-app-button-examples": "例",
@@ -53,7 +54,7 @@
 	"wdqs-app-result-shorturl-query": "要查詢嘅短網址",
 	"wdqs-app-result-shorturl-query-title": "用嚟擷取呢個結果嘅查詢嘅簡短網址",
 	"wdqs-app-result-rawgraphs": "喺RAWGraphs.io入面打開",
-	"wdqs-app-result-rawgraphs-title": "用RAWGraphs.io嘅當前結果數據嚟建立圖表",
+	"wdqs-app-result-rawgraphs-title": "用RAWGraphs.io將而家嘅結果數據建立圖表",
 	"wdqs-app-result-embed": "嵌入結果",
 	"wdqs-app-result-endpoint": "SPARQL終端",
 	"wdqs-app-result-endpoint-title": "連結去返回結果嘅 SPARQL 端點",
@@ -69,7 +70,7 @@
 	"wdqs-app-shorturl-page-title": "呢頁嘅短連結",
 	"wdqs-app-editor-placeholder": "（輸入SPARQL查詢或揀查詢示例）",
 	"wdqs-app-editor-addprefixes": "添加標準前綴",
-	"wdqs-app-resultbrowser-response-summary": "$1 {{PLURAL:$1|result|結果}} in $2&nbsp;ms",
+	"wdqs-app-resultbrowser-response-summary": "有$1個{{PLURAL:$1|結果}}，用咗$2毫秒",
 	"wdqs-app-resultbrowser-stabilize": "穩定網絡",
 	"wdqs-app-resultbrowser-hierarchical-lr": "由左到右嘅分層版面配置",
 	"wdqs-app-resultbrowser-hierarchical-ud": "由上而下嘅分層版面配置",
@@ -98,8 +99,8 @@
 	"wdqs-dialog-key-shortcut-title": "鍵盤快捷鍵",
 	"wdqs-dialog-key-shortcut-run-query": "查詢。",
 	"wdqs-dialog-key-shortcut-cancel-query": "取消查詢。",
-	"wdqs-dialog-key-shortcut-esc": "留低當前嘅輸入欄位/文字區域。",
-	"wdqs-dialog-key-shortcut-show-shortcut-help": "顯示當前頁面嘅鍵盤快捷鍵幫助。",
+	"wdqs-dialog-key-shortcut-esc": "留低而家嘅輸入欄位/文字區域。",
+	"wdqs-dialog-key-shortcut-show-shortcut-help": "顯示而家呢一版嘅鍵盤快捷鍵幫手。",
 	"wdqs-dialog-key-shortcut-focus-textarea": "專注喺查詢文字區域。",
 	"wdqs-dialog-key-shortcut-jump-to-result": "跳到查詢結果。",
 	"wdqs-dialog-key-shortcut-focus-filter": "將注意力集中喺查詢助手入面嘅「篩選器」掣。",
@@ -113,7 +114,7 @@
 	"wdqs-ve-show": "顯示",
 	"wdqs-ve-limit": "上限",
 	"wdqs-ve-add-label-title": "加入包含實體標籤嘅變數",
-	"wdqs-ve-remove-row-title": "移除呢行",
+	"wdqs-ve-remove-row-title": "剷走呢行",
 	"wdqs-ve-with": "有",
 	"wdqs-ve-anything": "任何嘢",
 	"wdqs-ve-any": "任何",
