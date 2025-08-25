@@ -3,6 +3,7 @@
 		"authors": [
 			"Belkacem77",
 			"Bilalbill",
+			"ButterflyOfFire",
 			"SlimaneAmiri"
 		]
 	},
@@ -85,6 +86,7 @@
 	"wdqs-dialog-key-shortcut-show-shortcut-help": "Sken tallalt ɣef yisegzalen n usinaw i tasna tamirant.",
 	"wdqs-dialog-key-shortcut-focus-textarea": "Semmes  ɣef tamadṛist n usuter.",
 	"wdqs-dialog-key-shortcut-jump-to-result": "Ddu ɣer ugemmuḍ n usuter.",
+	"wdqs-dialog-key-shortcut-close-button": "Mdel",
 	"wdqs-ve-filter": "Imzizdig",
 	"wdqs-ve-show": "Sken",
 	"wdqs-ve-add-label-title": "Rnu amutti igebren tabzimt n tayunt",
