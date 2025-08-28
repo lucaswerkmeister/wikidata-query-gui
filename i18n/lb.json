@@ -116,7 +116,7 @@
 	"wdqs-action-stop-query": "D'Requête gouf ofgebrach",
 	"wdqs-action-render": "Resultat gëtt duergestallt",
 	"wdqs-action-error-display": "D'Resultat kann net gewise ginn",
-	"wdqs-action-timeout": "Zäitlimitt fir Requêtë gouf erreecht",
+	"wdqs-action-timeout": "D'Zäitlimitt fir Requêtë gouf erreecht",
 	"wdqs-action-malformed-query": "D'Requête ass feelerhaft",
 	"wdqs-action-empty-query": "Gitt eng gülteg SPARQL-Requête an oder sicht eng Beispillrequête eraus",
 	"wdqs-action-server-error": "Feeler vum Server",
