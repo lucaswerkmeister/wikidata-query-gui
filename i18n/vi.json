@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Anhdonald",
+			"Bapham123",
 			"FunnyYellowDog",
 			"Leducthn",
 			"Minh Nguyen",
@@ -70,6 +71,7 @@
 	"wdqs-app-result-csv": "Tập tin CSV",
 	"wdqs-app-result-svg": "Hình SVG",
 	"wdqs-app-result-html": "Bảng HTML",
+	"wdqs-app-result-geojson": "Tập tin GeoJSON",
 	"wdqs-app-shorturl-page-title": "URL rút gọn đến trang này",
 	"wdqs-app-editor-placeholder": "(Nhập truy vấn SPARQL hoặc chọn một truy vấn mẫu)",
 	"wdqs-app-editor-addprefixes": "Thêm tiền tố chuyển",

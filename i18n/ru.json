@@ -10,6 +10,7 @@
 			"Irus",
 			"Kareyac",
 			"Laboramus",
+			"Mitte27",
 			"Movses",
 			"Nitch",
 			"Okras",
@@ -152,5 +153,6 @@
 	"wdqs-embed-button-edit-code": "Изменить SPARQL-код",
 	"wdqs-embed-button-edit-code-title": "Изменить этот запрос с помощью SPARQL-редактора",
 	"wdqs-embed-explorer-button-incoming": "Показать входящие ссылки",
-	"wdqs-embed-explorer-button-outgoing": "Показать исходящие ссылки"
+	"wdqs-embed-explorer-button-outgoing": "Показать исходящие ссылки",
+	"wdqs-app-graph-split-banner-content": "Включает ли ваш запрос элементы, описывающие научные статьи? Разделение графа влияет на ваши запросы. Подробнее об этом вы можете узнать на этой <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">странице справки</a>."
 }
