@@ -64,6 +64,7 @@
 	"wdqs-app-result-csv": "CSV-файл",
 	"wdqs-app-result-svg": "SVG-выява",
 	"wdqs-app-result-html": "HTML-табліца",
+	"wdqs-app-result-geojson": "Файл GeoJSON",
 	"wdqs-app-shorturl-page-title": "Кароткі URL да гэтай старонкі",
 	"wdqs-app-editor-placeholder": "(увядзіце запыт SPARQL ці абярыце прыклад запыту)",
 	"wdqs-app-editor-addprefixes": "Дадаць стандартныя прэфіксы",
@@ -137,5 +138,5 @@
 	"wdqs-embed-button-edit-code-title": "Рэдагаваць гэты запыт з дапамогай SPARQL-рэдактара",
 	"wdqs-embed-explorer-button-incoming": "Паказаць уваходныя спасылкі",
 	"wdqs-embed-explorer-button-outgoing": "Паказваць зыходныя спасылкі",
-	"wdqs-app-graph-split-banner-content": "Ваш запыт уключае элемэнты з апісаньнем навуковых артыкулаў? Будучы падзел графаў можа на вас паўплываць. Дазнайцеся болей у <a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_backend_update/September_2024_scaling_update\">гэтай абвестцы</a>."
+	"wdqs-app-graph-split-banner-content": "Ваш запыт уключае элемэнты з апісаньнем навуковых артыкулаў? Падзел графаў паўплывае на гэты запыт. Дазнайцеся пра гэта болей на <a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_graph_split\">старонцы дапамогі</a>."
 }

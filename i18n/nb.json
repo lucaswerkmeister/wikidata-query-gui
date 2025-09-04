@@ -68,6 +68,7 @@
 	"wdqs-app-result-csv": "CSV-fil",
 	"wdqs-app-result-svg": "SVG-bilde",
 	"wdqs-app-result-html": "HTML-tabell",
+	"wdqs-app-result-geojson": "GeoJSON-fil",
 	"wdqs-app-shorturl-page-title": "Kort URL til denne siden",
 	"wdqs-app-editor-placeholder": "(Sett inn en SPARQL-spørring eller velg et spørringseksempel)",
 	"wdqs-app-editor-addprefixes": "Legg til standardprefikser",
@@ -140,5 +141,6 @@
 	"wdqs-embed-button-edit-code": "Rediger SPARQL",
 	"wdqs-embed-button-edit-code-title": "Rediger denne spørringen med SPARQL-redigereren",
 	"wdqs-embed-explorer-button-incoming": "Vis lenker inn",
-	"wdqs-embed-explorer-button-outgoing": "Vis lenker ut"
+	"wdqs-embed-explorer-button-outgoing": "Vis lenker ut",
+	"wdqs-app-graph-split-banner-content": "Inkluderer spørringen elementer som beskriver vitenskapelige artikler? Da påvirker grafsplitten spørringen din. Lær mer om dette på <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">denne hjelpesiden</a>."
 }
