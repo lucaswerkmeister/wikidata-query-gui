@@ -65,6 +65,7 @@
 	"wdqs-app-result-csv": "CSV ဖိုင်",
 	"wdqs-app-result-svg": "SVG ပုံ",
 	"wdqs-app-result-html": "HTML ဇယား",
+	"wdqs-app-result-geojson": "GeoJSON ဖိုင်",
 	"wdqs-app-shorturl-page-title": "ဒေရလဒ်အတွက် အတို URL",
 	"wdqs-app-editor-placeholder": "(SPARQL စုံစမ်းရှာဖွေမှုကို ထည့်သွင်းပါ သိုယင်းမဟုတ် စုံစမ်းရှာဖွေမှု နမူနာတစ်ခုကို ရွီးချယ်ပါ)",
 	"wdqs-app-editor-addprefixes": "စတန်းဒါး ပရီဖိုင်းတိကိုထည့်ပါ",
@@ -138,5 +139,5 @@
 	"wdqs-embed-button-edit-code-title": "SPARQL editor နန့် စုံစမ်းရှာဖွီမှုကို ပြင်ဆင်ပါ",
 	"wdqs-embed-explorer-button-incoming": "အဝင်လင့်ခ်တိကို ပြရန်",
 	"wdqs-embed-explorer-button-outgoing": "အထွက်လင့်ခ်တိကို ပြရန်",
-	"wdqs-app-graph-split-banner-content": "သင့်စုံစမ်းရှာဖွီမှုမှာ သိပ္ပံဆိုင်ရာ ဆောင်းပါးတိကို ဖော်ပြရေအရာတိပါ၀င်ပါလား? လာဖို့ ဂရပ်ဖ်ခွဲစော် သင့်ကိုသက်ရောက်မှုဟိဖို့ဖြစ်ပါရေ။\n<a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_backend_update/September_2024_scaling_update\">this announcement</a> မှာ ကျေးဇူးပြုပြီး ယင်းအကြောင်းကို အများလေ့လာပါ။"
+	"wdqs-app-graph-split-banner-content": "သင့်စုံစမ်းရှာဖွီမှုမှာ သိပ္ပံဆိုင်ရာ ဆောင်းပါးတိကို ဖော်ပြရေအရာတိပါ၀င်ပါလား? လာဖို့ ဂရပ်ဖ်ခွဲစော် သင့်ကိုသက်ရောက်မှုဟိဖို့ဖြစ်ပါရေ။\n<a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_backend_update/September_2024_scaling_update\">this announcement</a> မာ ကျေးဇူးပြုပြီး ယင်းအကြောင်းကို ပိုပနာလိ့လာပါ။"
 }
