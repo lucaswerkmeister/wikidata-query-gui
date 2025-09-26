@@ -162,6 +162,7 @@ wikibase.queryService.ui.dialog.QueryExampleDialog = ( function ( $ ) {
 
 		this._getCloudTags().then( function ( tags ) {
 			var tagCloud = $( '.tagCloud' );
+
 			$.each( tags, function ( i, tag ) {
 				var label = tag.label + ' (' + tag.id + ')';
 
@@ -181,6 +182,11 @@ wikibase.queryService.ui.dialog.QueryExampleDialog = ( function ( $ ) {
 						}
 					}
 				} );
+			} );
+
+			// Manually trigger a resize event for the tag cloud. T405747
+			self._$element.on( 'shown.bs.modal', function () {
+				tagCloud.jQCloud( 'resize' );
 			} );
 
 			if ( redraw ) {
