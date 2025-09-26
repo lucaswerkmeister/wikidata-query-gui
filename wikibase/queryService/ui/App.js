@@ -397,7 +397,7 @@ wikibase.queryService.ui.App = ( function ( $, window, _, Cookies, moment ) {
 			f: function () { $( 'a#query-helper-filter' ).focus(); },
 			s: function () { $( 'a#query-helper-show' ).focus(); },
 			m: function () { $( 'a#query-helper-limit' ).click(); },
-			e: function () { if ( !$( '#QueryExamples' ).is( ':visible' ) ) { $( 'button#open-example' ).click(); } },
+			e: function () { if ( !$( '#QueryExamples' ).is( ':visible' ) ) { $( 'button#open-example' ).first().click(); } },
 			h: function () { $( 'button#help-toggle' ).click(); },
 			l: function () { $( 'a#language-toggle' ).click(); }
 		};
