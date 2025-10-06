@@ -23,5 +23,6 @@
 	"wdqs-ve-anything": "kva som helst",
 	"wdqs-ve-or": "eller",
 	"wdqs-ve-subtype": "undertype",
-	"wdqs-action-query": "Køyrer spørjing"
+	"wdqs-action-query": "Køyrer spørjing",
+	"wdqs-action-malformed-query": "Spørjinga har ugyldig syntaks"
 }
