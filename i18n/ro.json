@@ -7,6 +7,7 @@
 			"MSClaudiu",
 			"NGC 54",
 			"Paloi Sciurala",
+			"SZ475",
 			"Strainu",
 			"WebSourceContentRO"
 		]
@@ -55,6 +56,8 @@
 	"wdqs-app-footer-updated-ago": "Date actualizate $1",
 	"wdqs-app-result-shorturl": "URL scurt către rezultat",
 	"wdqs-app-result-shorturl-title": "URL scurt către acest rezultat",
+	"wdqs-app-result-shorturl-query": "URL scurt pentru interogare",
+	"wdqs-app-result-shorturl-query-title": "Adresă URL scurtă către interogarea utilizată pentru a recupera acest rezultat",
 	"wdqs-app-result-rawgraphs": "Deschide cu RAWGraphs.io",
 	"wdqs-app-result-rawgraphs-title": "Creați un grafic cu datele despre rezultatele curente utilizând RAWGraphs.io",
 	"wdqs-app-result-embed": "Introduceți rezultatul",
@@ -68,6 +71,7 @@
 	"wdqs-app-result-csv": "Fișier CSV",
 	"wdqs-app-result-svg": "Imagine SVG",
 	"wdqs-app-result-html": "Tabel HTML",
+	"wdqs-app-result-geojson": "Fișier GeoJSON",
 	"wdqs-app-shorturl-page-title": "URL scurt către această pagină",
 	"wdqs-app-editor-placeholder": "(Introduceți o interogare SPARQL sau alegeți un exemplu de interogare)",
 	"wdqs-app-editor-addprefixes": "Adaugă prefixe standard",
@@ -99,6 +103,7 @@
 	"wdqs-dialog-examples-preview-result": "Previzualizare rezultate",
 	"wdqs-dialog-key-shortcut-title": "Comenzi rapide de la tastatură",
 	"wdqs-dialog-key-shortcut-run-query": "Executare interogare.",
+	"wdqs-dialog-key-shortcut-cancel-query": "Anulaţi interogarea.",
 	"wdqs-dialog-key-shortcut-esc": "Lăsați câmpul de intrare curent/textarea.",
 	"wdqs-dialog-key-shortcut-show-shortcut-help": "Afișați ajutor pentru comenzi rapide de la tastatură pentru pagina curentă.",
 	"wdqs-dialog-key-shortcut-focus-textarea": "Concentrați-vă pe textarea interogării.",
@@ -139,5 +144,6 @@
 	"wdqs-embed-button-edit-code": "Modificare SPARQL",
 	"wdqs-embed-button-edit-code-title": "Editați această interogare cu editorul SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Afișați linkurile primite",
-	"wdqs-embed-explorer-button-outgoing": "Afișați linkurile de ieșire"
+	"wdqs-embed-explorer-button-outgoing": "Afișați linkurile de ieșire",
+	"wdqs-app-graph-split-banner-content": "Interogarea dvs. include elemente care descriu articole științifice? Împărțirea graficului vă afectează interogările. Vă rugăm să aflați mai multe despre aceasta pe această <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">pagină de ajutor</a>."
 }
