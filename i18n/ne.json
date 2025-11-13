@@ -13,10 +13,13 @@
 	"wdqs-app-button-more-tools": "थप उपकरणहरू",
 	"wdqs-app-button-help": "सहायता",
 	"wdqs-app-button-run": "चलाउनुहोस्",
-	"wdqs-app-button-run-title": "क्वेरी चलाउनुहोस् (<CTRL> + <ENTER>)",
+	"wdqs-app-button-run-title": "क्वेरी चलाउनुहोस् (CTRL + ENTER)",
+	"wdqs-app-button-cancel-title": "क्वेरी रद्द गर्नुहोस् (CTRL + ESC)",
 	"wdqs-app-button-clear": "खाली गर्नुहोस्",
 	"wdqs-app-button-clear-title": "क्वेरी खाली गर्नुहोस्",
 	"wdqs-app-button-restore-title": "अघिल्लो क्वेरी पुनर्स्थापना गर्नुहोस्",
+	"wdqs-app-button-format-title": "क्वेरीको ढाँचा मिलाउनुहोस्",
+	"wdqs-app-button-query-helper": "क्वेरी व्याख्या देखाउनुहोस्",
 	"wdqs-app-button-fullscreen-title": "पूर्ण स्क्रिन सम्पादन मोड टगल गर्नुहोस्",
 	"wdqs-app-button-display": "देखाउनुहोस्",
 	"wdqs-app-button-display-title": "नतिजा स्वरूप तालिका, तस्विर, ...",
@@ -31,6 +34,7 @@
 	"wdqs-app-help-portal": "सहायता पोर्टल",
 	"wdqs-app-help-manual": "प्रयोगकर्ता निर्देशिका",
 	"wdqs-app-help-examples": "उदाहरण क्वेरीहरू",
+	"wdqs-app-query-builder-name": "क्वेरी बिल्डर",
 	"wdqs-app-help-datamodel": "RDF डेटा मोडल",
 	"wdqs-app-help-prefixes": "प्रेफिक्सहरूको सूची",
 	"wdqs-app-help-copy": "इजाजतपत्रबारे जानकारी",
@@ -99,6 +103,6 @@
 	"wdqs-action-preview": "परिणाम पूर्वावलोकन",
 	"wdqs-result-map-layers-all": "सबै तहहरू",
 	"wdqs-result-map-progress": "म्याप डेटा लोड हुँदैछ: $1%",
-	"wdqs-embed-button-edit-query": "यो क्वेरीलाई सम्पादन गर्नुहोस्",
-	"wdqs-embed-button-edit-query-title": "यस क्वेरीलाई SPARQL सम्पादक ले सम्पादन गर्नुहोस्"
+	"wdqs-embed-button-edit-query": "दृश्यात्मक सम्पादन",
+	"wdqs-embed-button-edit-query-title": "क्वेरी सहायक प्रयोग गरी यो क्वेरी सम्पादन गर्नुहोस्।"
 }
