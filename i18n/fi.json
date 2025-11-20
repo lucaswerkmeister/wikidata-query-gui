@@ -75,7 +75,7 @@
 	"wdqs-app-result-html": "HTML-taulukko",
 	"wdqs-app-result-geojson": "GeoJSON-tiedosto",
 	"wdqs-app-shorturl-page-title": "Lyhyt URL-osoite tälle sivulle",
-	"wdqs-app-editor-placeholder": "(Tuo SPARQL-kysely tai valitse esimerkkikysely)",
+	"wdqs-app-editor-placeholder": "(Lisää SPARQL-kysely tai valitse esimerkkikysely)",
 	"wdqs-app-editor-addprefixes": "Lisää perusetuliitteet",
 	"wdqs-app-resultbrowser-response-summary": "$1 {{PLURAL:$1|tulos|tulosta}} ajassa $2&nbsp;ms",
 	"wdqs-app-resultbrowser-stabilize": "Vakauta verkko",
