@@ -22,6 +22,7 @@
 			"Luisangelrg",
 			"Macofe",
 			"Micru",
+			"Ovruni",
 			"Rubentl134",
 			"Ryo567",
 			"SpikeShroom",
@@ -89,6 +90,7 @@
 	"wdqs-app-result-csv": "Archivo CSV",
 	"wdqs-app-result-svg": "Imagen SVG",
 	"wdqs-app-result-html": "Tabla HTML",
+	"wdqs-app-result-geojson": "Archivo GeoJSON",
 	"wdqs-app-shorturl-page-title": "URL corta a esta página",
 	"wdqs-app-editor-placeholder": "(Escribe una consulta SPARQL o elige una consulta de ejemplo)",
 	"wdqs-app-editor-addprefixes": "Añadir prefijos estándar",
@@ -162,5 +164,5 @@
 	"wdqs-embed-button-edit-code-title": "Editar esta consulta con el editor de SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Mostrar enlaces entrantes",
 	"wdqs-embed-explorer-button-outgoing": "Mostrar enlaces salientes",
-	"wdqs-app-graph-split-banner-content": "¿Tu consulta incluye términos que describen artículos científicos? La división de grafos próxima te afectará. Para más información ingresa a <a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_backend_update/September_2024_scaling_update\">este anuncio</a>."
+	"wdqs-app-graph-split-banner-content": "¿Tu consulta incluye términos que describen artículos científicos? La división de grafos afecta a tus consultas. Para más información, consulta esta <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">página de ayuda</a>."
 }
