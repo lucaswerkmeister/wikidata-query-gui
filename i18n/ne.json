@@ -102,7 +102,7 @@
 	"wdqs-action-unknow-error": "अज्ञात त्रुटि",
 	"wdqs-action-preview": "परिणाम पूर्वावलोकन",
 	"wdqs-result-map-layers-all": "सबै तहहरू",
-	"wdqs-result-map-progress": "म्याप डेटा लोड हुँदैछ: $1%",
+	"wdqs-result-map-progress": "नक्सा डेटा लोड गर्दै: $1 %",
 	"wdqs-embed-button-edit-query": "दृश्यात्मक सम्पादन",
 	"wdqs-embed-button-edit-query-title": "क्वेरी सहायक प्रयोग गरी यो क्वेरी सम्पादन गर्नुहोस्।"
 }
