@@ -72,6 +72,7 @@
 	"wdqs-app-result-csv": "Soubor CSV",
 	"wdqs-app-result-svg": "Obrázek SVG",
 	"wdqs-app-result-html": "HTML tabulka",
+	"wdqs-app-result-geojson": "Soubor GeoJSON",
 	"wdqs-app-shorturl-page-title": "Krátké URL na tuto stránku",
 	"wdqs-app-editor-placeholder": "(Vložte SPARQL dotaz nebo vyberte příklad dotazu)",
 	"wdqs-app-editor-addprefixes": "Přidat standardní předpony",
@@ -145,5 +146,5 @@
 	"wdqs-embed-button-edit-code-title": "Editovat tento dotaz v editoru SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Zobrazit příchozí odkazy",
 	"wdqs-embed-explorer-button-outgoing": "Zobrazit odchozí odkazy",
-	"wdqs-app-graph-split-banner-content": "Obsahuje váš dotaz položky popisující vědecké články? Bude se vás týkat nadcházející rozdělení grafu. Přečtěte si prosím více informací v <a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_backend_update/September_2024_scaling_update\">tomto oznámení</a>."
+	"wdqs-app-graph-split-banner-content": "Obsahuje váš dotaz položky popisující vědecké články? Rozdělení grafu ovlivňuje vaše dotazy. Přečtěte si prosím více informací na <a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_graph_split\">stránce nápovědy</a>."
 }
