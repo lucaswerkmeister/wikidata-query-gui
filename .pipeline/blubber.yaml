@@ -1,4 +1,4 @@
-# syntax=docker-registry.wikimedia.org/repos/releng/blubber/buildkit:v1.0.0
+# syntax=docker-registry.wikimedia.org/repos/releng/blubber/buildkit:v1.6.0
 version: v4
 base: docker-registry.wikimedia.org/httpd
 runs: { insecurely: false }
