@@ -56,7 +56,7 @@
 	"wdqs-app-tools-list-properties": "Daftar atribut",
 	"wdqs-app-tools-lexicographical-data": "Data leksikografi",
 	"wdqs-app-tools-for-programmers": "Untuk pemrogram",
-	"wdqs-app-footer-help": "Tekan tombol <i>[CTRL-SPACE]</i> untuk mengaktifkan penyelesaian otomatis.",
+	"wdqs-app-footer-help": "Tekan <i>[CTRL-SPACE]</i> untuk menyalakan penyelesaian otomatis.",
 	"wdqs-app-footer-updated-ago": "Data diperbarui $1",
 	"wdqs-app-result-shorturl": "URL ringkas menuju hasil",
 	"wdqs-app-result-shorturl-title": "URL ringkas menuju hasil ini",
