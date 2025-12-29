@@ -6,6 +6,7 @@
 			"Mjälten",
 			"Rockyfelle",
 			"Sabelöga",
+			"Stefan2255",
 			"Sturban",
 			"WikiPhoenix",
 			"Yupik"
@@ -70,6 +71,7 @@
 	"wdqs-app-result-csv": "CSV-fil",
 	"wdqs-app-result-svg": "SVG-bild",
 	"wdqs-app-result-html": "HTML-tabell",
+	"wdqs-app-result-geojson": "JSON-fil",
 	"wdqs-app-shorturl-page-title": "Kort webbadress till denna sida",
 	"wdqs-app-editor-placeholder": "(Skriv en SPARQL-fråga eller välj ett exempel)",
 	"wdqs-app-editor-addprefixes": "Lägg till standardprefix",
@@ -126,6 +128,7 @@
 	"wdqs-ve-sb-suggestions": "Förslag",
 	"wdqs-ve-sb-other": "Övrigt",
 	"wdqs-action-query": "Bearbetar förfrågan",
+	"wdqs-action-stop-query": "Sökningen avbröts",
 	"wdqs-action-render": "Renderar resultat",
 	"wdqs-action-error-display": "Det gick inte att visa resultatet",
 	"wdqs-action-timeout": "Förfrågan nådde tidsgränsen",
@@ -142,5 +145,5 @@
 	"wdqs-embed-button-edit-code-title": "Redigera denna fråga med SPARQL-redigeraren",
 	"wdqs-embed-explorer-button-incoming": "Visa inkommande länkar",
 	"wdqs-embed-explorer-button-outgoing": "Visa utgående länkar",
-	"wdqs-app-graph-split-banner-content": "Innehåller din fråga artiklar som beskriver vetenskapliga artiklar? Den kommande grafdelningen kommer att påverka dig. Läs mer om det i <a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_backend_update/September_2024_scaling_update\">detta tillkännagivande</a> ."
+	"wdqs-app-graph-split-banner-content": "\nInnehåller din fråga artiklar som beskriver vetenskapliga artiklar? Grafuppdelningen påverkar dina frågor. Läs mer om det på den här <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">hjälpsidan</a>."
 }

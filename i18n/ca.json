@@ -5,6 +5,7 @@
 			"Bc0ed5a28dfc189b971a689bae2d31b45cb5f3fd",
 			"Fitoschido",
 			"Joseplluis",
+			"L'Arpetani",
 			"Lluis Cat",
 			"Lluis tgn",
 			"Mguix",
@@ -77,6 +78,7 @@
 	"wdqs-app-result-csv": "Fitxer CSV",
 	"wdqs-app-result-svg": "Imatge SVG",
 	"wdqs-app-result-html": "Taula d'HTML",
+	"wdqs-app-result-geojson": "Fitxer GeoJSON",
 	"wdqs-app-shorturl-page-title": "URL curta a aquesta pàgina",
 	"wdqs-app-editor-placeholder": "(Introduïu una consulta SPARQL o seleccioneu un exemple de consulta)",
 	"wdqs-app-editor-addprefixes": "Afegeix els prefixos estàndards",
@@ -149,5 +151,6 @@
 	"wdqs-embed-button-edit-code": "Modifica l'SPARQL",
 	"wdqs-embed-button-edit-code-title": "Modifica la consulta amb l'editor SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Mostra els enllaços entrants",
-	"wdqs-embed-explorer-button-outgoing": "Mosta els enllaços sortints"
+	"wdqs-embed-explorer-button-outgoing": "Mosta els enllaços sortints",
+	"wdqs-app-graph-split-banner-content": "La consulta inclou elements que descriuen articles científics? La divisió del gràfic afecta les vostres consultes. Més informació en aquesta <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">pàgina d'ajuda</a> ."
 }
