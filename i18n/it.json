@@ -5,6 +5,7 @@
 			"Albe Albe460",
 			"Anto",
 			"Beta16",
+			"Dream Indigo",
 			"Egidio24",
 			"Emabarto01",
 			"Greis",
@@ -150,5 +151,5 @@
 	"wdqs-embed-button-edit-code-title": "Modifica questa richiesta con l’editor SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Mostra collegamenti in entrata",
 	"wdqs-embed-explorer-button-outgoing": "Mostra collegamenti in uscita",
-	"wdqs-app-graph-split-banner-content": "La tua interrogazione include elementi che descrivono articoli scientifici? La suddivisione del grafico influisce sulle tue query. Per saperne di più, leggi <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">pagina di aiuto</a> ."
+	"wdqs-app-graph-split-banner-content": "La tua query include elementi che descrivono articoli scientifici? La suddivisione del grafico influisce sulle tue query. Per saperne di più, leggi <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">pagina di aiuto</a> ."
 }

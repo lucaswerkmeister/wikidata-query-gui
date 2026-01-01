@@ -61,6 +61,7 @@
 	"wdqs-app-result-csv": "Afaylu  CSV",
 	"wdqs-app-result-svg": "Tugna SVG",
 	"wdqs-app-result-html": "Tefelwit HTML",
+	"wdqs-app-result-geojson": "Afaylu GeoJSON",
 	"wdqs-app-shorturl-page-title": "Tansa URL tawezlant i usebter-agi",
 	"wdqs-app-editor-placeholder": "(Sekcem tuttra SPARQL neɣ fren amedya n tuttra)",
 	"wdqs-app-editor-addprefixes": "Rnu tignutin tuzwirin",
@@ -86,6 +87,7 @@
 	"wdqs-dialog-key-shortcut-show-shortcut-help": "Sken tallalt ɣef yisegzalen n usinaw i tasna tamirant.",
 	"wdqs-dialog-key-shortcut-focus-textarea": "Semmes  ɣef tamadṛist n usuter.",
 	"wdqs-dialog-key-shortcut-jump-to-result": "Ddu ɣer ugemmuḍ n usuter.",
+	"wdqs-dialog-key-shortcut-show-language": "Sken-d umuɣ n tutlayt",
 	"wdqs-dialog-key-shortcut-close-button": "Mdel",
 	"wdqs-ve-filter": "Imzizdig",
 	"wdqs-ve-show": "Sken",
@@ -109,5 +111,6 @@
 	"wdqs-result-map-layers-all": "Akk tissiwin",
 	"wdqs-result-map-progress": "Asali n isefka n tkarḍa: $1",
 	"wdqs-embed-button-edit-query": "Ẓreg tuttra-agi",
-	"wdqs-embed-button-edit-query-title": "Ẓreg tuttra-agi s umaẓrag SPARQL"
+	"wdqs-embed-button-edit-query-title": "Ẓreg tuttra-agi s umaẓrag SPARQL",
+	"wdqs-embed-button-edit-code": "Ẓreg SPARQL"
 }
