@@ -77,6 +77,7 @@
 	"wdqs-app-result-csv": "Plik CSV",
 	"wdqs-app-result-svg": "Obrazek SVG",
 	"wdqs-app-result-html": "tabela HTML",
+	"wdqs-app-result-geojson": "Plik GeoJSON",
 	"wdqs-app-shorturl-page-title": "Krótki adres URL do tej strony",
 	"wdqs-app-editor-placeholder": "(Wprowadź zapytanie SPARQL lub wybierz przykładowe zapytanie)",
 	"wdqs-app-editor-addprefixes": "Dodaj standardowe prefiksy",
@@ -149,5 +150,6 @@
 	"wdqs-embed-button-edit-code": "Edytuj SPARQL",
 	"wdqs-embed-button-edit-code-title": "Edytuj to zapytanie za pomocą edytora SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Pokaż linki przychodzące",
-	"wdqs-embed-explorer-button-outgoing": "Pokaż linki wychodzące"
+	"wdqs-embed-explorer-button-outgoing": "Pokaż linki wychodzące",
+	"wdqs-app-graph-split-banner-content": "Czy Twoje zapytanie zawiera elementy opisujące artykuły naukowe? Podział grafu ma wpływ na Twoje zapytania. Więcej informacji znajdziesz na tej <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">stronie pomocy</a>."
 }
