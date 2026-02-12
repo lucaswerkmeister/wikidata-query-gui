@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Red Winged Duck",
-			"Renessaince"
+			"Renessaince",
+			"Ucukor"
 		]
 	},
 	"wdqs-app-button-examples": "Прыклады",
@@ -91,7 +92,7 @@
 	"wdqs-app-toast-leave-fullscreen": "Націсьніце [esc], каб выйсьці з поўнаэкраннага рэжыму",
 	"wdqs-app-urlshortener-bad-service": "Кепскі сэрвіс скарачэньня URL-адрасоў у канфігурацыі",
 	"wdqs-app-urlshortener-failed": "Скарачэньне URL-адрасу не атрымалася",
-	"wdqs-app-urlshortener-loading": "Загрузка…",
+	"wdqs-app-urlshortener-loading": "Ладаваньне…",
 	"wdqs-dialog-examples-preview-query": "Перадпрагляд запыту",
 	"wdqs-dialog-examples-preview-result": "Папярэдні прагляд выніку",
 	"wdqs-dialog-key-shortcut-title": "Камбінацыі клявішаў",
