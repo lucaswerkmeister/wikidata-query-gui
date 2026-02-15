@@ -6,22 +6,40 @@ wikibase.queryService.api.UrlShortener = ( function ( $ ) {
 	'use strict';
 
 	/*
-	 * Service callbacks.
-	 * The callback should accept URL and return either HTML or a promise,
-	 * which should resolve to the shortened URL.
+	 * Service callback factories.
+	 * Given a configuration object, they return a callback which accepts a URL
+	 * and returns either HTML or a promise resolving to the shortened URL.
 	 */
-	var SERVICE_PROVIDERS = {
-		'tinyurl': function ( url ) {
-			return this._getTinyUrl( url );
+	var SERVICE_PROVIDER_FACTORIES = {
+		'tinyurl': function ( _config ) {
+			return function ( url ) {
+				return this._getTinyUrl( url );
+			};
 		},
-		// WMF production shortener, lives on Meta wiki
-		'wmf': function ( url ) {
-			return this._getWikiShort( url, 'meta.wikimedia.org' );
-		},
-		// Do not use this one in production! This is for testing only!
-		'wikibeta': function ( url ) {
-			return this._getWikiShort( url, 'en.wikipedia.beta.wmflabs.org' );
+		'urlshortener': function ( config ) {
+			let apiUrl;
+			if ( config.host ) {
+				apiUrl = 'https://' + config.host + '/w/api.php';
+			} else if ( config.apiUrl ) {
+				apiUrl = config.apiUrl;
+			} else {
+				return this._badService;
+			}
+			return function ( url ) {
+				return this._getWikiShort( url, apiUrl );
+			};
 		}
+	};
+
+	/*
+	 * Legacy urlShortener config values (strings instead of objects).
+	 */
+	var LEGACY_SERVICE_PROVIDERS = {
+		'tinyurl': SERVICE_PROVIDER_FACTORIES.tinyurl(),
+		// WMF production shortener, lives on Meta wiki
+		'wmf': SERVICE_PROVIDER_FACTORIES.urlshortener( { host: 'meta.wikimedia.org' } ),
+		// Do not use this one in production! This is for testing only!
+		'wikibase': SERVICE_PROVIDER_FACTORIES.urlshortener( { host: 'en.wikipedia.beta.wmflabs.org' } )
 	};
 
 	/**
@@ -32,9 +50,21 @@ wikibase.queryService.api.UrlShortener = ( function ( $ ) {
 	 *
 	 * @author Stanislav Malyshev
 	 * @constructor
+	 *
+	 * @param {string|object} serviceConfig A configuration object like
+	 * { "type": "urlshortener", "host": "meta.wikimedia.org" } or
+	 * { "type": "urlshortener", "apiUrl": "https://meta.wikimedia.org/w/api.php" } or
+	 * { "type": "tinyurl" },
+	 * or, for backwards compatibility, one of the three strings "wmf", "tinyurl" or "wikibase".
 	 */
-	function SELF( serviceType ) {
-		this._service = SERVICE_PROVIDERS[serviceType] || this._badService;
+	function SELF( serviceConfig ) {
+		if ( serviceConfig.type in SERVICE_PROVIDER_FACTORIES ) {
+			this._service = SERVICE_PROVIDER_FACTORIES[ serviceConfig.type ]( serviceConfig );
+		} else if ( typeof serviceConfig === 'string' ) {
+			this._service = LEGACY_SERVICE_PROVIDERS[serviceConfig] || this._badService;
+		} else {
+			this._service = this._badService;
+		}
 	}
 
 	/**
@@ -94,11 +124,16 @@ wikibase.queryService.api.UrlShortener = ( function ( $ ) {
 			'></iframe>';
 	};
 
-	/** @return {string} HTML */
-	SELF.prototype._getWikiShort = function ( url, server ) {
-		var deferred = $.Deferred();
+	/**
+	 * @private
+	 * @param {string} url
+	 * @param {string} apiUrl
+	 * @return {jQuery.Promise}
+	 */
+	SELF.prototype._getWikiShort = function ( url, apiUrl ) {
+		const deferred = $.Deferred();
 		$.ajax( {
-			'url': 'https://' + server + '/w/api.php',
+			'url': apiUrl,
 			'data': {
 				'action': 'shortenurl',
 				'format': 'json',

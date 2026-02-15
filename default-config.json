@@ -12,7 +12,9 @@
       "pageTitle": "Wikidata:SPARQL_query_service/queries/examples",
       "pagePathElement": "wiki/"
     },
-    "urlShortener": "tinyurl",
+    "urlShortener": {
+      "type": "tinyurl"
+    },
     "query-builder": {
       "server": "https://query.wikidata.org/querybuilder/"
     }
