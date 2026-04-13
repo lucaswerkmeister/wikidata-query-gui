@@ -111,7 +111,7 @@
 	"wdqs-dialog-key-shortcut-run-query": "Zoekopdracht uitvoeren.",
 	"wdqs-dialog-key-shortcut-cancel-query": "Zoekopdracht annuleren.",
 	"wdqs-dialog-key-shortcut-esc": "Verlaat het huidige invoerveld / tekstgebied.",
-	"wdqs-dialog-key-shortcut-show-shortcut-help": "Toon sneltoetshulp voor de huidige pagina.",
+	"wdqs-dialog-key-shortcut-show-shortcut-help": "Sneltoetshulp weergeven voor de huidige pagina.",
 	"wdqs-dialog-key-shortcut-focus-textarea": "Focus op tekstveld zoekopdracht",
 	"wdqs-dialog-key-shortcut-jump-to-result": "Ga naar het queryresultaat.",
 	"wdqs-dialog-key-shortcut-focus-filter": "Focus op de knop \"Filter\" in Query Helper.",
@@ -119,7 +119,7 @@
 	"wdqs-dialog-key-shortcut-focus-limit": "Klik op de knop \"Beperken\" in Query Helper.",
 	"wdqs-dialog-key-shortcut-show-example": "Weergeef voorbeelden.",
 	"wdqs-dialog-key-shortcut-help-menu": "Hulpmenu omschakelen.",
-	"wdqs-dialog-key-shortcut-show-language": "Toon taalmenu.",
+	"wdqs-dialog-key-shortcut-show-language": "Taalmenu weergeven.",
 	"wdqs-dialog-key-shortcut-close-button": "Sluiten",
 	"wdqs-ve-filter": "Filteren",
 	"wdqs-ve-show": "Weergeven",
@@ -149,7 +149,7 @@
 	"wdqs-embed-button-edit-query-title": "Bewerk deze query met de query-helper",
 	"wdqs-embed-button-edit-code": "SPARQL bewerken",
 	"wdqs-embed-button-edit-code-title": "Bewerk deze query met de SPARQL-editor",
-	"wdqs-embed-explorer-button-incoming": "Toon inkomende links",
-	"wdqs-embed-explorer-button-outgoing": "Toon uitgaande links",
+	"wdqs-embed-explorer-button-incoming": "Inkomende koppelingen weergeven",
+	"wdqs-embed-explorer-button-outgoing": "Uitgaande koppelingen weergeven",
 	"wdqs-app-graph-split-banner-content": "Omvat uw zoekopdracht items die wetenschappelijke artikelen beschrijven? Dan is de bereiksplitsing van invloed op uw zoekopdrachten. Lees er op deze <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">hulppagina</a> meer over."
 }
