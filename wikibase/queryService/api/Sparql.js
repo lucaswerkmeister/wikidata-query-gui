@@ -543,20 +543,16 @@ wikibase.queryService.api.Sparql = ( function ( $ ) {
 		var output = [],
 			data = this._rawData;
 
+		var self = this;
 		output = this._processData( data, function ( row, out ) {
 			// add a new row but missing geometry.coordinates
 			var newRow = { type: 'Feature', geometry: { type: 'Point' }, properties: {} };
 			for ( var rowVar in row ) {
 				var binding = ( row[rowVar] || {} );
 				if ( binding.type === 'literal' && binding.datatype === 'http://www.opengis.net/ont/geosparql#wktLiteral' ) {
-					// extract coordinates from WKT literal
-					var match = binding.value.match( /Point\(([^)]+)\)/ );
-					if ( match && match[1] ) {
-						var coords = match[1].split( ' ' );
-						if ( coords.length === 2 ) {
-							// we've found a valid Point, so add geometry.coordinates
-							newRow.geometry.coordinates = [ parseFloat( coords[0] ), parseFloat( coords[1] ) ];
-						}
+					var value = self._extractCoordinatesFromWKTLiteral( binding.value );
+					if ( value.valid === true ) {
+						newRow.geometry.coordinates = [ value.lon, value.lat ];
 					}
 				} else {
 					newRow.properties[rowVar] = binding.value;
@@ -569,6 +565,143 @@ wikibase.queryService.api.Sparql = ( function ( $ ) {
 			return out;
 		}, output );
 		return JSON.stringify( { type: 'FeatureCollection', features: output } );
+	};
+
+	/**
+	 * Get the result of the submitted query as GPX
+	 *
+	 * @return {object}
+	 */
+	SELF.prototype.getResultAsGPX = function () {
+		var output = [],
+			data = this._rawData;
+
+		var self = this;
+		output = this._processData( data, function ( row, out ) {
+			// add a new row but missing geometry.coordinates
+			var rowExport = '<wpt ';
+			var properties = '';
+			var hasCoordinates = false;
+			var nameTag = '';
+			for ( var rowVar in row ) {
+				var binding = ( row[rowVar] || {} );
+				if ( binding.type === 'literal' && binding.datatype === 'http://www.opengis.net/ont/geosparql#wktLiteral' && !hasCoordinates ) {
+					var value = self._extractCoordinatesFromWKTLiteral( binding.value );
+					if ( value.valid === true ) {
+						rowExport += 'lon="' + value.lon + '" lat="' + value.lat + '">';
+						hasCoordinates = true;
+					}
+				} else {
+					var contentValue = self._escapeValuesForXML( binding.value );
+					if ( nameTag === '' ) {
+						nameTag = '<name>' + contentValue + '</name>';
+					}
+					var rowVarEscaped = self._escapeValuesForXML( rowVar );
+					properties += '<rdf:Property rdf:about="' + rowVarEscaped + '"><rdf:value>' + contentValue + '</rdf:value></rdf:Property>';
+				}
+			}
+			if ( nameTag !== '' ) {
+				rowExport += nameTag;
+			}
+			if ( properties !== '' ) {
+				rowExport += '<extensions>' + properties + '</extensions>';
+			}
+			rowExport += '</wpt>';
+			// check if we have geometry.coordinates, if we do, it's a valid row
+			if ( hasCoordinates ) {
+				out.push( rowExport );
+			}
+			return out;
+		}, output );
+		return '<?xml version="1.0" encoding="UTF-8"?>'
+			+ '<gpx version="1.1" creator="Wikibase Query Service" xmlns="http://www.topografix.com/GPX/1/1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">'
+			+ '<metadata><name>Wikibase Query Service Export</name></metadata>'
+			+ output.join( '' )
+			+ '</gpx>';
+	};
+
+	/**
+	 * Get the result of the submitted query as KML
+	 *
+	 * @return {object}
+	 */
+	SELF.prototype.getResultAsKML = function () {
+		var output = [],
+			data = this._rawData;
+
+		var self = this;
+		output = this._processData( data, function ( row, out ) {
+			// add a new row but missing geometry.coordinates
+			var placemark = '<Placemark>';
+			var description = '';
+			var nameTag = '';
+			var hasCoordinates = false;
+			for ( var rowVar in row ) {
+				var binding = ( row[rowVar] || {} );
+				if ( binding.type === 'literal' && binding.datatype === 'http://www.opengis.net/ont/geosparql#wktLiteral' && !hasCoordinates ) {
+					// extract coordinates from WKT literal
+					var value = self._extractCoordinatesFromWKTLiteral( binding.value );
+					if ( value.valid === true ) {
+						placemark += '<Point><coordinates>' + value.lon + ',' + value.lat + '</coordinates></Point>';
+						hasCoordinates = true;
+					}
+				} else {
+					var contentValue = self._escapeValuesForXML( binding.value );
+					if ( nameTag === '' ) {
+						nameTag = '<name>' + contentValue + '</name>';
+					}
+					var rowVarEscaped = self._escapeValuesForXML( rowVar );
+					description += '<html:dt>' + rowVarEscaped + '</html:dt><html:dd>' + contentValue + '</html:dd>';
+				}
+			}
+			if ( nameTag !== '' ) {
+				placemark += nameTag;
+			}
+			if ( description !== '' ) {
+				placemark += '<description><html:dl>' + description + '</html:dl></description>';
+			}
+			placemark += '</Placemark>';
+			// check if we have geometry.coordinates, if we do, it's a valid row
+			if ( hasCoordinates ) {
+				out.push( placemark );
+			}
+			return out;
+		}, output );
+		return '<?xml version="1.0" encoding="UTF-8"?>'
+			+ '<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:html="http://www.w3.org/1999/xhtml"><Document>'
+			+ output.join( '' )
+			+ '</Document></kml>';
+	};
+
+	/**
+	 * Escape values for XML output
+	 * @private
+	 */
+	SELF.prototype._escapeValuesForXML = function ( value ) {
+		return value.replace( /&/g, '&amp;' )
+			.replace( />/g, '&gt;' )
+			.replace( /</g, '&lt;' )
+			.replace( /"/g, '&quot;' )
+			.replace( /'/g, '&#39;' );
+	};
+
+	/**
+	 * Extract coordinates from WKT literal
+	 * @private
+	 */
+	SELF.prototype._extractCoordinatesFromWKTLiteral = function ( value ) {
+		var match = value.match( /Point\(([^)]+)\)/ );
+		if ( match && match[1] ) {
+			var coords = match[1].split( ' ' );
+			if ( coords.length === 2 ) {
+				var lon = parseFloat( coords[0] );
+				var lat = parseFloat( coords[1] );
+				if ( !isNaN( lon ) && !isNaN( lat ) ) {
+					return { valid: true, lat: lat, lon: lon };
+				}
+			}
+		}
+		return { valid: false };
 	};
 
 	/**

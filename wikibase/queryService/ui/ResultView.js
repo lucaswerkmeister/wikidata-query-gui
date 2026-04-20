@@ -652,6 +652,16 @@ wikibase.queryService.ui.ResultView = ( function ( $, download, window ) {
 				mimetype: 'application/geo+json;charset=utf-8',
 				ext: 'geojson'
 			},
+			'GPX': {
+				handler: $.proxy( api.getResultAsGPX, api ),
+				mimetype: 'application/gpx+xml;charset=utf-8',
+				ext: 'gpx'
+			},
+			'KML': {
+				handler: $.proxy( api.getResultAsKML, api ),
+				mimetype: 'application/vnd.google-earth.kmz;charset=utf-8',
+				ext: 'kml'
+			},
 			'HTML': {
 				handler: $.proxy( api.getResultHTML, api ),
 				mimetype: 'application/html;charset=utf-8',
