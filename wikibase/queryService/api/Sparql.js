@@ -548,7 +548,10 @@ wikibase.queryService.api.Sparql = ( function ( $ ) {
 			// add a new row but missing geometry.coordinates
 			var newRow = { type: 'Feature', geometry: { type: 'Point' }, properties: {} };
 			for ( var rowVar in row ) {
-				var binding = ( row[rowVar] || {} );
+				if ( !row[rowVar] ) {
+					continue;
+				}
+				var binding = row[rowVar];
 				if ( binding.type === 'literal' && binding.datatype === 'http://www.opengis.net/ont/geosparql#wktLiteral' ) {
 					var value = self._extractCoordinatesFromWKTLiteral( binding.value );
 					if ( value.valid === true ) {
@@ -584,7 +587,10 @@ wikibase.queryService.api.Sparql = ( function ( $ ) {
 			var hasCoordinates = false;
 			var nameTag = '';
 			for ( var rowVar in row ) {
-				var binding = ( row[rowVar] || {} );
+				if ( !row[rowVar] ) {
+					continue;
+				}
+				var binding = row[rowVar];
 				if ( binding.type === 'literal' && binding.datatype === 'http://www.opengis.net/ont/geosparql#wktLiteral' && !hasCoordinates ) {
 					var value = self._extractCoordinatesFromWKTLiteral( binding.value );
 					if ( value.valid === true ) {
@@ -637,7 +643,10 @@ wikibase.queryService.api.Sparql = ( function ( $ ) {
 			var nameTag = '';
 			var hasCoordinates = false;
 			for ( var rowVar in row ) {
-				var binding = ( row[rowVar] || {} );
+				if ( !row[rowVar] ) {
+					continue;
+				}
+				var binding = row[rowVar];
 				if ( binding.type === 'literal' && binding.datatype === 'http://www.opengis.net/ont/geosparql#wktLiteral' && !hasCoordinates ) {
 					// extract coordinates from WKT literal
 					var value = self._extractCoordinatesFromWKTLiteral( binding.value );
