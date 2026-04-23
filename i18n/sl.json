@@ -70,6 +70,8 @@
 	"wdqs-app-result-svg": "Slika SVG",
 	"wdqs-app-result-html": "Tabela HTML",
 	"wdqs-app-result-geojson": "Datoteka GeoJSON",
+	"wdqs-app-result-gpx": "datoteka GPX",
+	"wdqs-app-result-kml": "datoteka KML",
 	"wdqs-app-shorturl-page-title": "Kratki URL do te strani",
 	"wdqs-app-editor-placeholder": "(Vnesite poizvedbo SPARQL ali izberite zgled poizvedbe)",
 	"wdqs-app-editor-addprefixes": "Dodaj standardne predpone",

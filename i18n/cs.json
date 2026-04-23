@@ -73,6 +73,8 @@
 	"wdqs-app-result-svg": "Obrázek SVG",
 	"wdqs-app-result-html": "HTML tabulka",
 	"wdqs-app-result-geojson": "Soubor GeoJSON",
+	"wdqs-app-result-gpx": "GPX soubor",
+	"wdqs-app-result-kml": "KML soubor",
 	"wdqs-app-shorturl-page-title": "Krátké URL na tuto stránku",
 	"wdqs-app-editor-placeholder": "(Vložte SPARQL dotaz nebo vyberte příklad dotazu)",
 	"wdqs-app-editor-addprefixes": "Přidat standardní předpony",

@@ -72,6 +72,8 @@
 	"wdqs-app-result-svg": "SVG şəkli",
 	"wdqs-app-result-html": "HTML cədvəli",
 	"wdqs-app-result-geojson": "GeoJSON faylı",
+	"wdqs-app-result-gpx": "GPX faylı",
+	"wdqs-app-result-kml": "KML faylı",
 	"wdqs-app-shorturl-page-title": "Bu səhifəyə qısa URL",
 	"wdqs-app-editor-placeholder": "(SPARQL sorğusunu daxil edin və ya bir sorğu nümunəsini seçin)",
 	"wdqs-app-editor-addprefixes": "Standart Prefiks əlavə edin",

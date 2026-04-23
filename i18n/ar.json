@@ -83,6 +83,8 @@
 	"wdqs-app-result-svg": "صورة SVG",
 	"wdqs-app-result-html": "جدول HTML",
 	"wdqs-app-result-geojson": "ملف GeoJSON",
+	"wdqs-app-result-gpx": "ملف GPX",
+	"wdqs-app-result-kml": "ملف KML",
 	"wdqs-app-shorturl-page-title": "مسار قصير إلى هذه الصفحة",
 	"wdqs-app-editor-placeholder": "(أدخل استعلام سباركل أو قم باختيار مثال استعلام)",
 	"wdqs-app-editor-addprefixes": "إضافة البادئات القياسية",

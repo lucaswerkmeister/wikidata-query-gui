@@ -74,6 +74,8 @@
 	"wdqs-app-result-svg": "SVG-kuva",
 	"wdqs-app-result-html": "HTML-taulukko",
 	"wdqs-app-result-geojson": "GeoJSON-tiedosto",
+	"wdqs-app-result-gpx": "GPX-tiedosto",
+	"wdqs-app-result-kml": "KML-tiedosto",
 	"wdqs-app-shorturl-page-title": "Lyhyt URL-osoite tälle sivulle",
 	"wdqs-app-editor-placeholder": "(Lisää SPARQL-kysely tai valitse esimerkkikysely)",
 	"wdqs-app-editor-addprefixes": "Lisää perusetuliitteet",

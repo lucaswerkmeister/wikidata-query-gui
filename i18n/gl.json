@@ -71,6 +71,8 @@
 	"wdqs-app-result-svg": "Imaxe SVG",
 	"wdqs-app-result-html": "Táboa HTML",
 	"wdqs-app-result-geojson": "Ficheiro GeoJSON",
+	"wdqs-app-result-gpx": "Ficheiro GPX",
+	"wdqs-app-result-kml": "Ficheiro KML",
 	"wdqs-app-shorturl-page-title": "Enderezo URL curto a esta páxina",
 	"wdqs-app-editor-placeholder": "(Indica unha consulta SPARQL ou escolle un exemplo de consulta)",
 	"wdqs-app-editor-addprefixes": "Engadir prefixos estándar",

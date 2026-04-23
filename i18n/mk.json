@@ -64,6 +64,8 @@
 	"wdqs-app-result-svg": "SVG-податотека",
 	"wdqs-app-result-html": "HTML-табела",
 	"wdqs-app-result-geojson": "GeoJSON-податотека",
+	"wdqs-app-result-gpx": "GPX-податотека",
+	"wdqs-app-result-kml": "KML-податотека",
 	"wdqs-app-shorturl-page-title": "Кратка URL до страницава",
 	"wdqs-app-editor-placeholder": "(Внесете барање до SPARQL или изберете пример)",
 	"wdqs-app-editor-addprefixes": "Додај стандардни преставки",

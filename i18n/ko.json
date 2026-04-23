@@ -75,6 +75,8 @@
 	"wdqs-app-result-svg": "SVG 영상",
 	"wdqs-app-result-html": "HTML 테이블",
 	"wdqs-app-result-geojson": "GeoJSON 파일",
+	"wdqs-app-result-gpx": "GPX 파일",
+	"wdqs-app-result-kml": "KML 파일",
 	"wdqs-app-shorturl-page-title": "이 페이지에 대한 짧은 URL",
 	"wdqs-app-editor-placeholder": "(SPARQL 쿼리를 입력하거나 쿼리 예제를 선택하십시오)",
 	"wdqs-app-editor-addprefixes": "표준 접두어 추가",

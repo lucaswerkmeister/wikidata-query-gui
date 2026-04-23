@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chpol",
 			"Derugon",
 			"Djiboun",
 			"Fitoschido",
@@ -78,6 +79,8 @@
 	"wdqs-app-result-svg": "Image SVG",
 	"wdqs-app-result-html": "Tableau HTML",
 	"wdqs-app-result-geojson": "Fichier GeoJSON",
+	"wdqs-app-result-gpx": "Fichier GPX",
+	"wdqs-app-result-kml": "Fichier KML",
 	"wdqs-app-shorturl-page-title": "URL courte de cette page",
 	"wdqs-app-editor-placeholder": "(Entrez une requête SPARQL ou choisissez un exemple de requête)",
 	"wdqs-app-editor-addprefixes": "Ajouter des préfixes standards",
