@@ -72,6 +72,8 @@
 	"wdqs-app-result-svg": "SVG-bild",
 	"wdqs-app-result-html": "HTML-tabell",
 	"wdqs-app-result-geojson": "JSON-fil",
+	"wdqs-app-result-gpx": "GPX-fil",
+	"wdqs-app-result-kml": "KML-fil",
 	"wdqs-app-shorturl-page-title": "Kort webbadress till denna sida",
 	"wdqs-app-editor-placeholder": "(Skriv en SPARQL-fråga eller välj ett exempel)",
 	"wdqs-app-editor-addprefixes": "Lägg till standardprefix",

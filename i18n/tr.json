@@ -85,6 +85,8 @@
 	"wdqs-app-result-svg": "SVG Resim",
 	"wdqs-app-result-html": "HTML tablosu",
 	"wdqs-app-result-geojson": "GeoJSON dosyası",
+	"wdqs-app-result-gpx": "GPX dosyası",
+	"wdqs-app-result-kml": "KML dosyası",
 	"wdqs-app-shorturl-page-title": "Bu sayfa için kısa URL",
 	"wdqs-app-editor-placeholder": "(Bir SPARQL sorgusu girin ya da örnek bir sorgu seçin)",
 	"wdqs-app-editor-addprefixes": "Standart Önek Ekle",

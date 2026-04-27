@@ -65,6 +65,8 @@
 	"wdqs-app-result-svg": "Émâge SVG",
 	"wdqs-app-result-html": "Grelye HTML",
 	"wdqs-app-result-geojson": "Fichiér GeoJSON",
+	"wdqs-app-result-gpx": "Fichiér GPX",
+	"wdqs-app-result-kml": "Fichier KML",
 	"wdqs-app-shorturl-page-title": "URL côrta de vers cela pâge",
 	"wdqs-app-editor-placeholder": "(Buchiéd na requéta SPARQL ou ben chouèsésséd ‘n ègzemplo de requéta)",
 	"wdqs-app-editor-addprefixes": "Apondre de prèfixos estandârds",

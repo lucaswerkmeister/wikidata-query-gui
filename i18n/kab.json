@@ -62,6 +62,8 @@
 	"wdqs-app-result-svg": "Tugna SVG",
 	"wdqs-app-result-html": "Tefelwit HTML",
 	"wdqs-app-result-geojson": "Afaylu GeoJSON",
+	"wdqs-app-result-gpx": "Afaylu GPX",
+	"wdqs-app-result-kml": "Afaylu KML",
 	"wdqs-app-shorturl-page-title": "Tansa URL tawezlant i usebter-agi",
 	"wdqs-app-editor-placeholder": "(Sekcem tuttra SPARQL neɣ fren amedya n tuttra)",
 	"wdqs-app-editor-addprefixes": "Rnu tignutin tuzwirin",
