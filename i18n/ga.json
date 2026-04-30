@@ -65,6 +65,8 @@
 	"wdqs-app-result-svg": "Íomhá SVG",
 	"wdqs-app-result-html": "Tábla HTML",
 	"wdqs-app-result-geojson": "Comhad GeoJSON",
+	"wdqs-app-result-gpx": "Comhad GPX",
+	"wdqs-app-result-kml": "Comhad KML",
 	"wdqs-app-shorturl-page-title": "URL gearr chuig an leathanach seo",
 	"wdqs-app-editor-placeholder": "(Cuir isteach fiosrúchán SPARQL nó roghnaigh sampla fiosrúcháin)",
 	"wdqs-app-editor-addprefixes": "Cuir Réimíreanna Caighdeánacha leis",
