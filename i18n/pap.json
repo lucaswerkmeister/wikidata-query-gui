@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kallmemel",
 			"ObaTango"
 		]
 	},
@@ -56,7 +57,7 @@
 	"wdqs-app-result-svg": "Imágen SVG",
 	"wdqs-app-result-html": "Tabèl HTML",
 	"wdqs-app-shorturl-page-title": "URL kòrtíku pa e página akí",
-	"wdqs-app-editor-placeholder": "Skibi un konsulta SPARQL òf skohe un ehèmpel di konsulta",
+	"wdqs-app-editor-placeholder": "Skirbi un konsulta-SPARQL òf skohe un ehèmpel",
 	"wdqs-app-editor-addprefixes": "Añadí prefiho stándart",
 	"wdqs-app-resultbrowser-response-summary": "$1 {{PLURAL:$1|resultado}} den $2&nbsp;ms",
 	"wdqs-app-resultbrowser-stabilize": "Stabilisá ret",
@@ -110,7 +111,7 @@
 	"wdqs-action-error-display": "No ta posibel mustra e resultado",
 	"wdqs-action-timeout": "A yega límite di tempu pa e konsulta",
 	"wdqs-action-malformed-query": "E konsulta no ta korekto",
-	"wdqs-action-empty-query": "Hinka un konsulta SPARQL bálido òf skohe un ehèmpel di konsulta",
+	"wdqs-action-empty-query": "Hinka un konsulta bálido di SPARQL òf skohe un ehèmpel",
 	"wdqs-action-server-error": "Eror di server",
 	"wdqs-action-unknow-error": "Eror deskonosí",
 	"wdqs-action-preview": "Bista previo di e resultado",
@@ -119,7 +120,7 @@
 	"wdqs-embed-button-edit-query": "Editá visualmente",
 	"wdqs-embed-button-edit-query-title": "Editá e konsulta akí ku e yudansa pa konsulta",
 	"wdqs-embed-button-edit-code": "Editá SPARQL",
-	"wdqs-embed-button-edit-code-title": "Editá e konsulta akí ku e editor di SPARQL",
+	"wdqs-embed-button-edit-code-title": "Editá e konsulta akí ku editor di SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Mustra link ku ta drenta",
 	"wdqs-embed-explorer-button-outgoing": "Mustra link ku ta sali"
 }
