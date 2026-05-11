@@ -61,6 +61,8 @@
 	"wdqs-app-footer-updated-ago": "$1 전에 데이터 업데이트됨",
 	"wdqs-app-result-shorturl": "결과에 대한 짧은 URL",
 	"wdqs-app-result-shorturl-title": "이 결과에 대한 짧은 URL",
+	"wdqs-app-result-shorturl-query": "쿼리로의 단축 URL",
+	"wdqs-app-result-shorturl-query-title": "이 결과를 가져오는 데 사용된 쿼리로의 단축 URL",
 	"wdqs-app-result-rawgraphs": "RAWGraphs.io에서 열기",
 	"wdqs-app-result-rawgraphs-title": "RAWGraphs.io를 사용하여 현재의 결과 데이터로 그래프를 만듭니다",
 	"wdqs-app-result-embed": "결과 임베드",
@@ -149,5 +151,6 @@
 	"wdqs-embed-button-edit-code": "SPARQL 편집",
 	"wdqs-embed-button-edit-code-title": "SPARQL 편집기로 이 쿼리 편집",
 	"wdqs-embed-explorer-button-incoming": "들어오는 링크 표시",
-	"wdqs-embed-explorer-button-outgoing": "나가는 링크 표시"
+	"wdqs-embed-explorer-button-outgoing": "나가는 링크 표시",
+	"wdqs-app-graph-split-banner-content": "검색 결과에 과학 논문을 설명하는 항목이 포함되어 있습니까? 그래프 분할은 검색 결과에 영향을 미칩니다. 자세한 내용은 이 <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">도움말 문서</a>를 참조하세요."
 }
