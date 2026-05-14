@@ -65,6 +65,8 @@
 	"wdqs-app-result-svg": "Imagine SVG",
 	"wdqs-app-result-html": "Tabella HTML",
 	"wdqs-app-result-geojson": "File GeoJSON",
+	"wdqs-app-result-gpx": "File GPX",
+	"wdqs-app-result-kml": "File KML",
 	"wdqs-app-shorturl-page-title": "URL curte a iste pagina",
 	"wdqs-app-editor-placeholder": "(Entra un consulta SPARQL o selige un exemplo de consulta)",
 	"wdqs-app-editor-addprefixes": "Adjunger prefixos standard",
