@@ -78,6 +78,8 @@
 	"wdqs-app-result-svg": "Εικόνα SVG",
 	"wdqs-app-result-html": "Πίνακας HTML",
 	"wdqs-app-result-geojson": "Αρχείο GeoJSON",
+	"wdqs-app-result-gpx": "Αρχείο GPX",
+	"wdqs-app-result-kml": "Αρχείο KML",
 	"wdqs-app-shorturl-page-title": "Σύντομο URL γι' αυτή τη σελίδα",
 	"wdqs-app-editor-placeholder": "(Εισαγάγετε ένα ερώτημα SPARQL ή να διαλέξτε ένα παράδειγμα ερωτήματος)",
 	"wdqs-app-editor-addprefixes": "Προσθήκη Standard Προθεμάτων",
