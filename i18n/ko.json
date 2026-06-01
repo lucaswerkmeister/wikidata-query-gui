@@ -68,7 +68,7 @@
 	"wdqs-app-result-embed": "결과 임베드",
 	"wdqs-app-result-endpoint": "SPARQL 종단점",
 	"wdqs-app-result-endpoint-title": "결과를 제출하기 위하여 SPARQL 종단점으로 링크하기",
-	"wdqs-app-result-formatter-title-datetime": "순수 ISO 타임스탬프",
+	"wdqs-app-result-formatter-title-datetime": "원본 ISO 타임스탬프",
 	"wdqs-app-result-json": "JSON 파일",
 	"wdqs-app-result-json-verbose": "JSON 파일 (verbose)",
 	"wdqs-app-result-tsv": "TSV 파일",
