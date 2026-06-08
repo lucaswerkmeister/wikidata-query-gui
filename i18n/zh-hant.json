@@ -67,6 +67,8 @@
 	"wdqs-app-result-svg": "SVG 圖片",
 	"wdqs-app-result-html": "HTML 表格",
 	"wdqs-app-result-geojson": "GeoJSON 檔案",
+	"wdqs-app-result-gpx": "GPX 檔案",
+	"wdqs-app-result-kml": "KML 檔案",
 	"wdqs-app-shorturl-page-title": "連至此頁面的短網址",
 	"wdqs-app-editor-placeholder": "(輸入 SPARQL 查詢或選擇查詢範例)",
 	"wdqs-app-editor-addprefixes": "增加標準前綴",
