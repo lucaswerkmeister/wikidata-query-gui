@@ -6,6 +6,7 @@
 			"Luky001",
 			"Oujon",
 			"Spider 001757",
+			"Wizzard",
 			"Yardom78"
 		]
 	},
@@ -68,6 +69,9 @@
 	"wdqs-app-result-csv": "Súbor CSV",
 	"wdqs-app-result-svg": "Obrázok SVG",
 	"wdqs-app-result-html": "Tabuľka HTML",
+	"wdqs-app-result-geojson": "Súbor GeoJSON",
+	"wdqs-app-result-gpx": "Súbor GPX",
+	"wdqs-app-result-kml": "Súbor KML",
 	"wdqs-app-shorturl-page-title": "Krátka adresa URL k tejto stránke",
 	"wdqs-app-editor-placeholder": "(Zadajte dotaz SPARQL alebo vyberte príklad dotazu)",
 	"wdqs-app-editor-addprefixes": "Pridať štandardné predpony",
@@ -141,5 +145,5 @@
 	"wdqs-embed-button-edit-code-title": "Upraviť tento dotaz pomocou editora SPARQL",
 	"wdqs-embed-explorer-button-incoming": "Zobraziť prichádzajúce odkazy",
 	"wdqs-embed-explorer-button-outgoing": "Zobraziť odchádzajúce odkazy",
-	"wdqs-app-graph-split-banner-content": "Obsahuje váš dopyt položky popisujúce vedecké články? Nadchádzajúce rozdelenie grafu vás ovplyvní. Viac sa o tom dozviete v <a href=\"https://www.wikidata.org/wiki/Special:MyLanguage/Wikidata:SPARQL_query_service/WDQS_backend_update/September_2024_scaling_update\">tomto oznámení</a> ."
+	"wdqs-app-graph-split-banner-content": "Obsahuje váš dopyt položky popisujúce vedecké články? Rozdelenie grafu ovplyvňuje vaše dopyty. Viac sa o tom dozviete na <a href=\"https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/WDQS_graph_split\">tejto stránke pomocníka</a>."
 }
