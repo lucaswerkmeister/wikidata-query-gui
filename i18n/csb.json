@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kaszeba"
+			"Kaszeba",
+			"Terrus38"
 		]
 	},
 	"wdqs-app-button-examples": "Przëmiôr",
@@ -54,7 +55,7 @@
 	"wdqs-dialog-examples-preview-query": "Pòdzérk zapëtaniô",
 	"wdqs-dialog-examples-preview-result": "Pòdzérk rezultatu",
 	"wdqs-ve-filter": "Filter",
-	"wdqs-ve-show": "Pokôżë",
+	"wdqs-ve-show": "Pòkażë",
 	"wdqs-ve-add-label-title": "Dodôj zmiennną, chtërnô zamëkôw se òpisënk òbjektu",
 	"wdqs-ve-remove-row-title": "Rëmôj nã wiérztã",
 	"wdqs-ve-with": "z",
