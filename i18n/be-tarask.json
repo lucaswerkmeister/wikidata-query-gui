@@ -54,7 +54,7 @@
 	"wdqs-app-result-shorturl-query-title": "Кароткі URL для запыту, якім здабыты гэты вынік",
 	"wdqs-app-result-rawgraphs": "Адкрыць у RAWGraphs.io",
 	"wdqs-app-result-rawgraphs-title": "Стварыць граф зь цяперашнім вынікам з дапамогай RAWGraphs.io",
-	"wdqs-app-result-embed": "Убудаваць вынік",
+	"wdqs-app-result-embed": "Укласьці вынік",
 	"wdqs-app-result-endpoint": "кропка досягу SPARQL",
 	"wdqs-app-result-endpoint-title": "Спасылка на кропку досягу SPARQL, якая вяртае вынік",
 	"wdqs-app-result-formatter-title-datetime": "Неапрацаваная адзнака часу ISO",
