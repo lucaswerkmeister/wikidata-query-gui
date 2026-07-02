@@ -1,0 +1,94 @@
+module.exports = {
+	root: true,
+	extends: [
+		'wikimedia/client',
+		'wikimedia/jquery',
+		'wikimedia/mediawiki'
+	],
+	globals: {
+		QUnit: 'readonly',
+		jQuery: 'readonly',
+		sinon: 'readonly'
+	},
+	plugins: [
+		'promise',
+		'compat'
+	],
+	rules: {
+		'no-jquery/no-global-selector': 'off',
+		'no-underscore-dangle': 'off',
+		'max-len': 'off',
+		'one-var': 'off',
+		'operator-linebreak': 'off',
+		'promise/no-native': 'error',
+		'valid-jsdoc': 'off',
+		'vars-on-top': 'off',
+		'wrap-iife': 'off',
+
+		// rules deactivated because they conflict with the current code
+		'arrow-body-style': 'off',
+		'block-scoped-var': 'off',
+		'brace-style': 'off',
+		'computed-property-spacing': 'off',
+		'mediawiki/class-doc': 'off',
+		'no-empty-character-class': 'off',
+		'no-implicit-globals': 'off',
+		'no-multi-str': 'off',
+		'no-new': 'off',
+		'no-redeclare': 'off',
+		'no-shadow': 'off',
+		'no-tabs': 'off',
+		'no-undef': 'off',
+		'no-unreachable-loop': 'off',
+		'no-useless-concat': 'off',
+		'no-useless-escape': 'off',
+		'no-unused-vars': 'off',
+		'no-var': 'off',
+		'prefer-arrow-callback': 'off',
+		'prefer-const': 'off',
+		'quote-props': 'off',
+		'es-x/no-array-prototype-includes': 'off',
+		'es-x/no-array-prototype-keys': 'off',
+		'es-x/no-array-prototype-values': 'off',
+		'es-x/no-math-trunc': 'off',
+		'es-x/no-string-prototype-endswith': 'off',
+		'es-x/no-string-prototype-includes': 'off',
+		'es-x/no-string-prototype-startswith': 'off',
+		'es-x/no-symbol-prototype-description': 'off',
+		'jsdoc/require-param': 'off',
+		'jsdoc/require-returns': 'off',
+		'jsdoc/check-types': 'off',
+		'jsdoc/no-undefined-types': 'off',
+		'jsdoc/newline-after-description': 'off',
+		'jsdoc/check-tag-names': 'off',
+		'jsdoc/valid-types': 'off',
+		'jsdoc/tag-lines': 'off',
+		'mediawiki/no-storage': 'off',
+		'no-jquery/no-done-fail': 'off',
+		'no-jquery/no-proxy': 'off',
+		'no-jquery/no-each-util': 'off',
+		'no-jquery/no-extend': 'off',
+		'no-jquery/no-event-shorthand': 'off',
+		'no-jquery/no-parse-html-literal': 'off',
+		'no-jquery/variable-pattern': 'off',
+		'no-jquery/no-error': 'off',
+		'no-jquery/no-unique': 'off',
+		'no-jquery/no-sizzle': 'off',
+		'no-jquery/no-bind': 'off',
+		'no-jquery/no-now': 'off',
+		'no-jquery/no-fade': 'off',
+		'no-jquery/no-map-util': 'off',
+		'no-jquery/no-class-state': 'off',
+		'unicorn/prefer-date-now': 'off',
+		'unicorn/prefer-includes': 'off',
+		'unicorn/prefer-string-slice': 'off'
+	},
+	overrides: [
+		{
+			files: '*.json',
+			rules: {
+				indent: 'off'
+			}
+		}
+	]
+};

@@ -22,7 +22,7 @@
 	};
 
 	const getFailureMessage = ( actual, expected ) => {
-		return `Expected ${JSON.stringify( expected, null, 2 )} to match actual ${JSON.stringify( actual, null, 2 )}`;
+		return `Expected ${ JSON.stringify( expected, null, 2 ) } to match actual ${ JSON.stringify( actual, null, 2 ) }`;
 	};
 
 	QUnit.module( 'wikibase.queryService.api.Wikibase', ( hooks ) => {

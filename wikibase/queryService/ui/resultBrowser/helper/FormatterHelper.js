@@ -400,7 +400,7 @@ wikibase.queryService.ui.resultBrowser.helper.FormatterHelper = ( function ( $, 
 			try {
 				var decoded = decodeURI( uri );
 				forDisplay = decoded.replace(
-					/* eslint-disable prefer-regex-literals, es-x/no-regexp-u-flag, es-x/no-regexp-unicode-property-escapes */
+					/* eslint-disable prefer-regex-literals, es-x/no-regexp-unicode-property-escapes */
 					/*
 					 * use the RegExp constructor instead of a literal so that,
 					 * in browsers without /u support, we only get a runtime exception,
