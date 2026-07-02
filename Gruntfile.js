@@ -291,7 +291,8 @@ module.exports = function ( grunt ) {
 		} );
 
 		var wdioProcess = spawn( 'node_modules/.bin/wdio', [ 'run', 'tests/specs/wdio.conf.js' ], {
-			stdio: [ process.stdin, process.stdout, process.stderr ]
+			stdio: [ process.stdin, process.stdout, process.stderr ],
+			env: Object.assign( { MW_SERVER: 'http://localhost:8082', MW_SCRIPT_PATH: '/' }, process.env )
 		} );
 
 		wdioProcess.on( 'exit', function ( error ) {

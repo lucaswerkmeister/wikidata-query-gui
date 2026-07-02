@@ -11,3 +11,6 @@ target
 *.log
 custom-config.json
 tests/specs/log/*.mp4
+tests/specs/log/*.png
+tests/selenium/log/*.png
+tests/selenium/log/*.mp4
