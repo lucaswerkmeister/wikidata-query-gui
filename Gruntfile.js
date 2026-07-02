@@ -285,9 +285,23 @@ module.exports = function ( grunt ) {
 	grunt.registerTask( 'wdio', function () {
 		var done = this.async();
 		var spawn = require( 'child_process' ).spawn;
+		var fs = require( 'node:fs' );
 
-		var serverProcess = spawn( 'node_modules/.bin/http-server', [ '-p', '8082', '--silent' ], {
-			stdio: [ process.stdin, process.stdout, process.stderr ]
+		var serverLog = fs.openSync( './browser-test-server.log', 'a' );
+		var serverProcess = spawn( 'node_modules/.bin/serve', {
+			stdio: [ process.stdin, serverLog, serverLog ],
+			env: Object.assign( { PORT: 8082 }, process.env )
+		} );
+		serverProcess.on( 'exit', function ( error ) {
+			if ( error ) {
+				done( false );
+			}
+			fs.closeSync( serverLog );
+		} );
+
+		serverProcess.on( 'error', function ( error ) {
+			done( false );
+			fs.closeSync( serverLog );
 		} );
 
 		var wdioProcess = spawn( 'node_modules/.bin/wdio', [ 'run', 'tests/specs/wdio.conf.js' ], {

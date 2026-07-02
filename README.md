@@ -68,10 +68,16 @@ npm run browser_test
 ```
 
 ## Debug
-Start a test server for local debugging. Do not use it in production.
+Start a test server for local debugging. Do not use it in production. The server starts by default on port 8080 - if port 8080 is in use, another random port will be used to serve the debugging site:
 
 ```bash
 $ npm start
+```
+
+To specific a specific port:
+
+```
+$ npx serve -p <PORT_NUMBER>
 ```
 
 ## Build
