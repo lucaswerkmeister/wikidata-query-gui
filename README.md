@@ -111,7 +111,7 @@ npm outdated
 
 The following libraries must be kept at their current version:
  - `grunt-eslint@24.3.0` - cannot be upgraded further until ESLint is upgraded to version 9 across Mediawiki repos (in particular `eslint-config-wikimedia`). See [T364065](https://phabricator.wikimedia.org/T364065)
- - `downloadjs@1.4.4` - per the comment in `package.json`, this should not be upgraded past the current version until [this git issue](https://github.com/rndme/download/issues/56) is resolved.
+ - `downloadjs@1.4.4` - per the comment in `package.json`, this should not be upgraded past the current version until [this git issue](https://github.com/rndme/download/issues/56) is resolved. The issue has been open since 2017 and the library unmaintained since 2018 - replacing the library is probably a better path than waiting for an upgrade.
 
 ## Publish new image version
 
