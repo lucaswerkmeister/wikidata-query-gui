@@ -101,6 +101,17 @@ docker run -p 8080:8080 <image name>
 
 Visit `http://127.0.0.1:8080/`
 
+## Upgrading
+
+A list of out-of-date dependencies can be retrieved with:
+
+```
+npm outdated
+```
+
+The following libraries must be kept at their current version:
+ - `grunt-eslint@24.3.0` - cannot be upgraded further until ESLint is upgraded to version 9 across Mediawiki repos (in particular `eslint-config-wikimedia`). See [T364065](https://phabricator.wikimedia.org/T364065)
+ - `downloadjs@1.4.4` - per the comment in `package.json`, this should not be upgraded past the current version until [this git issue](https://github.com/rndme/download/issues/56) is resolved.
 
 ## Publish new image version
 
