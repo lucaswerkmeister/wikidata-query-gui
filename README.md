@@ -9,7 +9,7 @@ Please see more details about the service in the [User Manual](https://www.media
 Clone git repo, go into created folder and then pull all dependencies via npm package manager.
 
 ```bash
-$ git clone https://gerrit.wikimedia.org/r/wikidata/query/gui
+$ git clone https://gitlab.wikimedia.org/repos/wmde/wikidata-query-gui.git gui
 $ cd gui
 $ npm install
 ```

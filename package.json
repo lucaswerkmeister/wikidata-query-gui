@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gerrit.wikimedia.org/r/p/wikidata/query/gui.git",
+    "url": "https://gitlab.wikimedia.org/repos/wmde/wikidata-query-gui.git",
     "deploy": {
       "gerrit": "gerrit.wikimedia.org",
       "repo": "wikidata/query/gui-deploy",
