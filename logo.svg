@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 48 31" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<path d="m0 31h1.7778v-31h-1.7778zm3.5556 0h5.3334v-31h-5.3334zm7.1112-31v31h5.3334v-31z" fill="#900"/>
-<path d="m42.667 31h1.7778v-31h-1.7778zm3.5556-31v31h1.7778v-31zm-28.444 31h1.7778v-31h-1.7778zm3.5556-31v31h1.7778v-31z" fill="#396"/>
-<path d="m24.889 31h5.3334v-31h-5.3334v31zm7.1112 0h1.7778v-31h-1.7778v31zm3.5556-31v31h5.3334v-31h-5.3334z" fill="#069"/>
+<?xml version="1.0"?>
+<svg viewBox="0 0 48 31" xmlns="http://www.w3.org/2000/svg">
+	<title>
+		Wikidata logo
+	</title>
+	<path d="M0 31h1.8V0H0zm3.6 0h5.3V0H3.6zm7-31v31H16V0z" fill="#900"/>
+	<path d="M42.7 31h1.7V0h-1.7zm3.5-31v31H48V0zM17.8 31h1.8V0h-1.8zm3.5-31v31h1.8V0z" fill="#396"/>
+	<path d="M24.9 31h5.3V0H25zm7.1 0h1.8V0H32zm3.6-31v31h5.3V0z" fill="#069"/>
 </svg>
