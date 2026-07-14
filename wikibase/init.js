@@ -105,15 +105,6 @@
 
 		setLanguage( lang, false, afterLanguageChange );
 
-		languageSelector.setChangeListener( function ( lang ) {
-			api.setLanguage( lang );
-			sparqlApi.setLanguage( lang );
-			sparqlApiHelper.setLanguage( lang );
-			querySamplesApi.setLanguage( lang );
-			tooltipRepository.setLanguage( lang );
-			setLanguage( lang, true, afterLanguageChange );
-		} );
-
 		app = new wb.ui.App(
 			$( '.wikibase-queryservice ' ),
 			editor,
@@ -126,6 +117,16 @@
 			config.api['query-builder'].server,
 			banner
 		);
+
+		languageSelector.setChangeListener( function ( lang ) {
+			api.setLanguage( lang );
+			sparqlApi.setLanguage( lang );
+			sparqlApiHelper.setLanguage( lang );
+			querySamplesApi.setLanguage( lang );
+			tooltipRepository.setLanguage( lang );
+			app.setLanguage( lang );
+			setLanguage( lang, true, afterLanguageChange );
+		} );
 	} );
 
 } )( jQuery, CONFIG, moment );

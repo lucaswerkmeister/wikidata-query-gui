@@ -392,5 +392,16 @@ wikibase.queryService.ui.dialog.QueryExampleDialog = ( function ( $ ) {
 		this._trackingApi.trackStats( STATS_TRACKING_NAMESPACE + metricName, value, valueType, labels );
 	};
 
+	/** @param {string} language */
+	SELF.prototype.setLanguage = function ( language ) {
+		// Clear and refill example table with examples in the new language
+		this._$element.find( '.searchable' ).empty();
+		this._initExamples();
+
+		// Clear previous tag cloud to avoid visual glitches
+		$( '.tagCloud' ).jQCloud( 'update', [] );
+		this._drawTagCloud( true );
+	};
+
 	return SELF;
 }( jQuery ) );

@@ -544,8 +544,10 @@ wikibase.queryService.ui.ResultView = ( function ( $, download, window ) {
 	 */
 	SELF.prototype._initExamples = function () {
 		var self = this;
-		new wikibase.queryService.ui.dialog.QueryExampleDialog( $( '#QueryExamples' ),
-			this._querySamplesApi, function ( query, title ) {
+		this._queryExampleDialog = new wikibase.queryService.ui.dialog.QueryExampleDialog(
+			$( '#QueryExamples' ),
+			this._querySamplesApi,
+			function ( query, title ) {
 				if ( !query || !query.trim() ) {
 					return;
 				}
@@ -863,6 +865,11 @@ wikibase.queryService.ui.ResultView = ( function ( $, download, window ) {
 		}
 
 		return 'other-referrer';
+	};
+
+	/** @param {string} language */
+	SELF.prototype.setLanguage = function ( language ) {
+		this._queryExampleDialog.setLanguage( language );
 	};
 
 	return SELF;

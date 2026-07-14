@@ -988,6 +988,11 @@ wikibase.queryService.ui.App = ( function ( $, window, _, Cookies, moment ) {
 		this._trackingApi.trackStats( STATS_TRACKING_NAMESPACE + metricName, value, valueType, labels );
 	};
 
+	/** @param {string} language */
+	SELF.prototype.setLanguage = function ( language ) {
+		this._resultView.setLanguage( language )
+	};
+
 	return SELF;
 
 }( jQuery, window, _, Cookies, moment ) );
