@@ -23,16 +23,14 @@ wikibase.queryService.ui.dialog.QueryExampleDialog = ( function ( $ ) {
 	 * @param {wikibase.queryService.api.QuerySamples} querySamplesApi
 	 * @param {Function} callback that is called when selecting an example
 	 * @param {wikibase.queryService.api.Wikibase} [wikibaseApi]
-	 * @param {string} [queryBuilderUrl] URL to query builder
 	 * @param {string} [previewUrl] URL to preview the result of an example query
 	 */
-	function SELF( $element, querySamplesApi, callback, wikibaseApi, queryBuilderUrl, previewUrl ) {
+	function SELF( $element, querySamplesApi, callback, wikibaseApi, previewUrl ) {
 
 		this._$element = $element;
 		this._querySamplesApi = querySamplesApi;
 		this._callback = callback;
 		this._wikibaseApi = wikibaseApi;
-		this._queryBuilderUrl = queryBuilderUrl;
 		this._previewUrl = previewUrl || 'embed.html#';
 
 		this._init();

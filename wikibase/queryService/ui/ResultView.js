@@ -561,7 +561,9 @@ wikibase.queryService.ui.ResultView = ( function ( $, download, window ) {
 					self.draw( query );
 					window.location.hash = '#' + encodeURIComponent( '#' + title + '\n' + query );
 				}
-			}, this._wikibaseApi, this._queryBuilderUrl );
+			},
+			this._wikibaseApi
+		);
 	};
 
 	/**
