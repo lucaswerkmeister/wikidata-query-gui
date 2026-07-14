@@ -21,10 +21,9 @@ wikibase.queryService.api.QuerySamples = ( function ( $ ) {
 		if ( !settings ) {
 			throw new Error( 'Invalid method call: query sample settings are missing!' );
 		}
-		this._apiServer = settings.server;
-		this._apiUrl = this._apiServer + settings.apiPath;
+		this._apiUrl = settings.server + settings.apiPath;
 		this._pageTitle = settings.pageTitle;
-		this._pageUrl = this._apiServer + settings.pagePathElement + 'Special:MyLanguage/' + this._pageTitle;
+		this._pageUrl = settings.server + settings.pagePathElement + 'Special:MyLanguage/' + this._pageTitle;
 	}
 
 	/**
@@ -39,8 +38,8 @@ wikibase.queryService.api.QuerySamples = ( function ( $ ) {
 	SELF.prototype.getExamples = function () {
 		var self = this;
 
-		return self._parsePage(
-			self._pageTitle + '/' + self._language
+		return this._parsePage(
+			this._pageTitle + '/' + this._language
 		).catch( function () {
 			// retry without language
 			return self._parsePage( self._pageTitle );
@@ -95,8 +94,8 @@ wikibase.queryService.api.QuerySamples = ( function ( $ ) {
 	/**
 	 * Find closest header element one higher than this one
 	 *
-	 * @param {Element} element Header element
-	 * @return {null|Element} Header element
+	 * @param {jQuery} element Header element
+	 * @return {null|jQuery} Header element
 	 * @private
 	 */
 	SELF.prototype._findPrevHeader = function ( element ) {
@@ -110,9 +109,9 @@ wikibase.queryService.api.QuerySamples = ( function ( $ ) {
 	/**
 	 * Find previous element matching the selector
 	 *
-	 * @param {Element} element
+	 * @param {jQuery} element
 	 * @param {string} selector
-	 * @return {Element}
+	 * @return {jQuery}
 	 * @private
 	 */
 	SELF.prototype._findPrev = function ( element, selector ) {
@@ -134,12 +133,7 @@ wikibase.queryService.api.QuerySamples = ( function ( $ ) {
 
 	SELF.prototype._extractTagsFromSPARQL = function ( sparql ) {
 		var tags = sparql.match( /\b[QP]\d+\b/g );
-
-		if ( !tags ) {
-			return [];
-		}
-
-		return tags;
+		return tags || [];
 	};
 
 	SELF.prototype._parseHTML = function ( html ) {
