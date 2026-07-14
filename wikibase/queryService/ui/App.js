@@ -990,7 +990,7 @@ wikibase.queryService.ui.App = ( function ( $, window, _, Cookies, moment ) {
 
 	/** @param {string} language */
 	SELF.prototype.setLanguage = function ( language ) {
-		this._resultView.setLanguage( language )
+		this._resultView.setLanguage( language );
 	};
 
 	return SELF;
