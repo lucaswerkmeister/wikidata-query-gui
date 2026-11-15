@@ -18,6 +18,7 @@ wikibase.queryService.api.UrlShortener = ( function ( $ ) {
 		},
 		'urlshortener': function ( config ) {
 			let apiUrl;
+			const anonymous = 'anonymous' in config ? config.anonymous : true;
 			if ( config.host ) {
 				apiUrl = 'https://' + config.host + '/w/api.php';
 			} else if ( config.apiUrl ) {
@@ -26,7 +27,7 @@ wikibase.queryService.api.UrlShortener = ( function ( $ ) {
 				return this._badService;
 			}
 			return function ( url ) {
-				return this._getWikiShort( url, apiUrl );
+				return this._getWikiShort( url, apiUrl, anonymous );
 			};
 		}
 	};
@@ -54,6 +55,7 @@ wikibase.queryService.api.UrlShortener = ( function ( $ ) {
 	 * @param {string|object} serviceConfig A configuration object like
 	 * { "type": "urlshortener", "host": "meta.wikimedia.org" } or
 	 * { "type": "urlshortener", "apiUrl": "https://meta.wikimedia.org/w/api.php" } or
+	 * { "type": "urlshortener", "host": "wiki.example", "anonymous": false } or
 	 * { "type": "tinyurl" },
 	 * or, for backwards compatibility, one of the three strings "wmf", "tinyurl" or "wikibase".
 	 */
@@ -128,16 +130,17 @@ wikibase.queryService.api.UrlShortener = ( function ( $ ) {
 	 * @private
 	 * @param {string} url
 	 * @param {string} apiUrl
+	 * @param {boolean} anonymous
 	 * @return {jQuery.Promise}
 	 */
-	SELF.prototype._getWikiShort = function ( url, apiUrl ) {
+	SELF.prototype._getWikiShort = function ( url, apiUrl, anonymous ) {
 		const deferred = $.Deferred();
 		$.ajax( {
 			'url': apiUrl,
 			'data': {
 				'action': 'shortenurl',
 				'format': 'json',
-				'origin': '*',
+				'origin': anonymous ? '*' : undefined,
 				'url': url
 			},
 			'dataType': 'json',
